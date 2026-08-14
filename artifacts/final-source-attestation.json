@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-14T21:07:58.718Z",
+  "status": "SOURCE_ATTESTED_RELEASE_BLOCKED",
+  "sourceAttested": true,
+  "releaseReady": false,
+  "sourceRootHash": "7214a173c201d098541e180984dc3482cd18ff6cfba7eb113c7497808b43a8a6",
+  "sourceMaterial": {
+    "canon": "eb6dd3dde6e5ef52b73a514e4823d060d04e83830700e9cd69490e8b11e9ff47",
+    "masterSpec": "243cb0c00fd00ae43a220d81b383718d0fb5b73748a0fac9ef3e3bd480304958",
+    "featureRegistry": "26c4f37e6959e4b0f05315a88071ef0ef4dc5c1fcee9a99336e007c163ea74f4",
+    "projectStatus": "d6c138177542d507feaed406bc56a9ef35ac7ea822a1632b378d1edde1321735",
+    "package": "c20021a0bf456cc47a024d0d7d3ca7ec90823eafcd1122edbbba6bf608e42907",
+    "toolchainPolicy": "b0c1799d4375a65b7e94a4d3f84cee3e2599852dd74d6fee37edfad56a0d1bd7",
+    "migrationChain": "5b93ae0faa71cd737e19609bb99d71c4eb903dedac50e4a0ff1cad62430138e7"
+  },
+  "toolchain": {
+    "ready": true,
+    "policy": {
+      "schemaVersion": 1,
+      "nodeVersion": "22.16.0",
+      "npmVersion": "10.9.2",
+      "typescriptVersion": "7.0.2",
+      "dockerImage": "node:22.16.0-bookworm-slim",
+      "requiredNpmrc": {
+        "engine-strict": "true",
+        "save-exact": "true"
+      }
+    },
+    "runtime": {
+      "node": "22.16.0",
+      "npm": "10.9.2"
+    },
+    "surfaces": {
+      "packageManager": "npm@10.9.2",
+      "enginesNode": "22.16.0",
+      "enginesNpm": "10.9.2",
+      "nvmrc": "22.16.0",
+      "nodeVersionFile": "22.16.0",
+      "dockerMatches": 2,
+      "workflowSetupNodeMatches": 4,
+      "renderToolchainGuards": 2
+    },
+    "findings": []
+  },
+  "featureCoverage": {
+    "total": 253,
+    "covered": 252,
+    "percent": 99.605,
+    "nonCovered": [
+      {
+        "id": "QA-003",
+        "status": "BLOCKED"
+      }
+    ]
+  },
+  "migrations": {
+    "count": 54,
+    "latest": "054_visual_experience.sql"
+  },
+  "releaseBlockers": [
+    "lockfile.missing: package-lock.json is required before dependency-backed release verification"
+  ],
+  "limitations": [
+    "Source attestation is workspace/source evidence, not production verification.",
+    "Live DB/Discord/deployment evidence remains separate and must not be inferred from this artifact.",
+    "A missing reviewed package-lock.json keeps dependency-backed QA and release readiness blocked."
+  ]
+}

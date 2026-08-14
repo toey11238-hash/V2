@@ -1,0 +1,231 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "types": [
+      "node"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@autoserver/core": [
+        "packages/core/src/index.ts"
+      ],
+      "@autoserver/config": [
+        "packages/config/src/index.ts"
+      ],
+      "@autoserver/database": [
+        "packages/database/src/index.ts"
+      ],
+      "@autoserver/jobs": [
+        "packages/jobs/src/index.ts"
+      ],
+      "@autoserver/realtime": [
+        "packages/realtime/src/index.ts"
+      ],
+      "@autoserver/setup": [
+        "packages/setup/src/index.ts"
+      ],
+      "@autoserver/gaming": [
+        "packages/gaming/src/index.ts"
+      ],
+      "@autoserver/security": [
+        "packages/security/src/index.ts"
+      ],
+      "@autoserver/assets": [
+        "packages/assets/src/index.ts"
+      ],
+      "@autoserver/blueprints": [
+        "packages/blueprints/src/index.ts"
+      ],
+      "@autoserver/panels": [
+        "packages/panels/src/index.ts"
+      ],
+      "@autoserver/tickets": [
+        "packages/tickets/src/index.ts"
+      ],
+      "@autoserver/moderation": [
+        "packages/moderation/src/index.ts"
+      ],
+      "@autoserver/automation": [
+        "packages/automation/src/index.ts"
+      ],
+      "@autoserver/automation/*": [
+        "packages/automation/src/*"
+      ],
+      "@autoserver/scheduler": [
+        "packages/scheduler/src/index.ts"
+      ],
+      "@autoserver/events": [
+        "packages/events/src/index.ts"
+      ],
+      "@autoserver/notifications": [
+        "packages/notifications/src/index.ts"
+      ],
+      "@autoserver/backups": [
+        "packages/backups/src/index.ts"
+      ],
+      "@autoserver/diagnostics": [
+        "packages/diagnostics/src/index.ts"
+      ],
+      "@autoserver/integrations": [
+        "packages/integrations/src/index.ts"
+      ],
+      "@autoserver/analytics": [
+        "packages/analytics/src/index.ts"
+      ],
+      "@autoserver/recommendations": [
+        "packages/recommendations/src/index.ts"
+      ],
+      "@autoserver/voice": [
+        "packages/voice/src/index.ts"
+      ],
+      "@autoserver/catalog": [
+        "packages/catalog/src/index.ts"
+      ],
+      "@autoserver/permissions": [
+        "packages/permissions/src/index.ts"
+      ],
+      "@autoserver/localization": [
+        "packages/localization/src/index.ts"
+      ],
+      "@autoserver/community": [
+        "packages/community/src/index.ts"
+      ],
+      "@autoserver/roles": [
+        "packages/roles/src/index.ts"
+      ],
+      "@autoserver/operations": [
+        "packages/operations/src/index.ts"
+      ],
+      "@autoserver/repair": [
+        "packages/repair/src/index.ts"
+      ],
+      "@autoserver/control-center": [
+        "packages/control-center/src/index.ts"
+      ],
+      "@autoserver/recovery": [
+        "packages/recovery/src/index.ts"
+      ],
+      "@autoserver/workflows": [
+        "packages/workflows/src/index.ts"
+      ],
+      "@autoserver/governance": [
+        "packages/governance/src/index.ts"
+      ],
+      "@autoserver/plugins": [
+        "packages/plugins/src/index.ts"
+      ],
+      "@autoserver/creator": [
+        "packages/creator/src/index.ts"
+      ],
+      "@autoserver/education": [
+        "packages/education/src/index.ts"
+      ],
+      "@autoserver/business": [
+        "packages/business/src/index.ts"
+      ],
+      "@autoserver/forums": [
+        "packages/forums/src/index.ts"
+      ],
+      "@autoserver/change-control": [
+        "packages/change-control/src/index.ts"
+      ],
+      "@autoserver/feature-flags": [
+        "packages/feature-flags/src/index.ts"
+      ],
+      "@autoserver/ai-hooks": [
+        "packages/ai-hooks/src/index.ts"
+      ],
+      "@autoserver/giveaways": [
+        "packages/giveaways/src/index.ts"
+      ],
+      "@autoserver/cache": [
+        "packages/cache/src/index.ts"
+      ],
+      "@autoserver/compatibility": [
+        "packages/compatibility/src/index.ts"
+      ],
+      "@autoserver/growth": [
+        "packages/growth/src/index.ts"
+      ],
+      "@autoserver/documentation": [
+        "packages/documentation/src/index.ts"
+      ],
+      "@autoserver/http-security": [
+        "packages/http-security/src/index.ts"
+      ],
+      "@autoserver/vertical-ops": [
+        "packages/vertical-ops/src/index.ts"
+      ],
+      "@autoserver/audit-log": [
+        "packages/audit-log/src/index.ts"
+      ],
+      "@autoserver/release-truth": [
+        "packages/release-truth/src/index.ts"
+      ],
+      "@autoserver/community-fabric": [
+        "packages/community-fabric/src/index.ts"
+      ],
+      "@autoserver/incidents": [
+        "packages/incidents/src/index.ts"
+      ],
+      "@autoserver/capacity": [
+        "packages/capacity/src/index.ts"
+      ],
+      "@autoserver/recovery-drills": [
+        "packages/recovery-drills/src/index.ts"
+      ],
+      "@autoserver/budgets": [
+        "packages/budgets/src/index.ts"
+      ],
+      "@autoserver/admission-control": [
+        "packages/admission-control/src/index.ts"
+      ],
+      "@autoserver/audit-log/*": [
+        "packages/audit-log/src/*"
+      ],
+      "@autoserver/visual-system": [
+        "packages/visual-system/src/index.ts"
+      ],
+      "@autoserver/visual-experience": [
+        "packages/visual-experience/src/index.ts"
+      ],
+      "@autoserver/digital-twin": [
+        "packages/digital-twin/src/index.ts"
+      ],
+      "@autoserver/operations-intelligence": [
+        "packages/operations-intelligence/src/index.ts"
+      ],
+      "@autoserver/event-replay": [
+        "packages/event-replay/src/index.ts"
+      ],
+      "@autoserver/recovery-evidence": [
+        "packages/recovery-evidence/src/index.ts"
+      ]
+    },
+    "allowImportingTsExtensions": true
+  },
+  "include": [
+    "apps/**/*.ts",
+    "apps/**/*.tsx",
+    "packages/**/*.ts",
+    "scripts/**/*.ts",
+    "tests/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/dist"
+  ]
+}
