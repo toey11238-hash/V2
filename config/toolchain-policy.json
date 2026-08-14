@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "nodeVersion": "22.16.0",
+  "npmVersion": "10.9.2",
+  "typescriptVersion": "7.0.2",
+  "dockerImage": "node:22.16.0-bookworm-slim",
+  "requiredNpmrc": {
+    "engine-strict": "true",
+    "save-exact": "true"
+  }
+}
