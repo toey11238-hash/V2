@@ -1,0 +1,1036 @@
+{
+  "generatedAt": "2026-08-14T19:30:00.444395Z",
+  "generator": "scripts/generate-visual-assets-offline.py · prismatic-depth-v2",
+  "assets": [
+    {
+      "file": "accessibility-center.png",
+      "sha256": "0fd7d5602ac9ff14fe17adf7a56e92f452b1c6f71343b73e3bc3e64b21d5de04",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 253068
+    },
+    {
+      "file": "accessibility-requests.png",
+      "sha256": "521d5c52676a7c0b1e04b992270ac3e83b25b0c90a8874ab0b8b65d5fda88262",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 252253
+    },
+    {
+      "file": "ambassador-center.png",
+      "sha256": "fbeb786dd4f74b3bce2724f5330fb8f7a1fddc5eec8cba944eff93acb5a43edf",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 215650
+    },
+    {
+      "file": "announcement-motion.gif",
+      "sha256": "9502a6c902d4ae5dc7ddd2df81812116513bf1e0595dc0ac765a0dc37d54db14",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 568187
+    },
+    {
+      "file": "announcement.png",
+      "sha256": "5a7cf76acc5b489840c88a66c59f4418e1285cccd86d4e9ec5a288d78156f4e1",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 228369
+    },
+    {
+      "file": "application.png",
+      "sha256": "37f97ce72c632475881c1319166c4f57a4a291e3ab77c89c0d1102cf64bdfa94",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 207522
+    },
+    {
+      "file": "asset-fabric.png",
+      "sha256": "7dffb69e90323df8ae0ec936aad4c386d69da60a18bf0f2ac0f15f55c52c73d9",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 221957
+    },
+    {
+      "file": "asset-gallery.png",
+      "sha256": "862a26618368e1213aa5d210056206817c75a1f3678cdf7fe27cac0609800314",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 209354
+    },
+    {
+      "file": "automation-lab.png",
+      "sha256": "2280951883053a883f0b6be55aab496c44d491766d0cca6e09339d82b0b0c527",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 253164
+    },
+    {
+      "file": "backup.png",
+      "sha256": "1ab246f62777f38e3bda8045ec05ea8cd19f761032fd70a27908f804b32a2f0d",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 217343
+    },
+    {
+      "file": "brand-assets.png",
+      "sha256": "ff470ec2d557c1214196528a0a3f2b7473ac5a3fddb66ee0d75555e27d797f09",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 256494
+    },
+    {
+      "file": "business-analytics.png",
+      "sha256": "88644d8c0316769015f51cef1edb4fcd7eef1c858f471abc79d5774e9c08d07c",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 204102
+    },
+    {
+      "file": "business.png",
+      "sha256": "b903a9048aedffb7f0e425ef4aa2f4b3fe0d29a2de985a028f53676c597c8774",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 251609
+    },
+    {
+      "file": "capacity-planning.png",
+      "sha256": "4c97c2a17f0d3a7fb2ef55543fa7c8399a61b462fb1b7589c32f749fd80144fc",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 217107
+    },
+    {
+      "file": "change-control.png",
+      "sha256": "98eba75c69a9692aaa5fe0992dac9eec403a7fd82af189e2a48f839e568b5730",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 217445
+    },
+    {
+      "file": "community-calendar.png",
+      "sha256": "834e5b99fc86e6633e036520e6381897e4ec2265ca632d25cd9e203d81653c80",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 218638
+    },
+    {
+      "file": "community-programs.png",
+      "sha256": "614c0390f4029bec53b28e9040877987781b506fb3f7d21d548785e81af3c831",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 231402
+    },
+    {
+      "file": "content-studio-motion.gif",
+      "sha256": "266c62d2a39df21544b6d0f8beb4fcbacdf255a18c56fb123a556f9c810491e0",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 557512
+    },
+    {
+      "file": "content-studio.png",
+      "sha256": "595f1c41e44c957d642476423383b0e9478cf9c867fefe91d17d1f0a96e9472c",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 206794
+    },
+    {
+      "file": "creator-analytics.png",
+      "sha256": "987d432665a0843d98c59bcf26986b3139635cb5f1c8043102be5b08fcfe69e5",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 221534
+    },
+    {
+      "file": "creator-network.png",
+      "sha256": "25ece437b03c6460a535a2e5c4a150e1831ed576f875849cd46bf8e5334f3960",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 235603
+    },
+    {
+      "file": "creator.png",
+      "sha256": "53c50974c020d87bb62b4776afb2e6d54846924b7333e69b0974cfb847acf11f",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 208947
+    },
+    {
+      "file": "customer-success.png",
+      "sha256": "0e66fdbe9e7bfab0a4f5b62e2d463000749369966c4c99e1501d38535ccc44c6",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 214591
+    },
+    {
+      "file": "data-observatory.png",
+      "sha256": "f72bb6a8100798f44c0f1b5b8872bf54e02086e2c6c01fa3dce3941078f22de3",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 219861
+    },
+    {
+      "file": "deployment-log.png",
+      "sha256": "29bba3288a88f9e2b50d10805c9596caf6ba9ba1b43f5e98a4bb3aa6bf2ac070",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 208105
+    },
+    {
+      "file": "education.png",
+      "sha256": "45d838d1904aa827f8cab3351e29c608b59c14cce6e4cbe4be96252aaa2a96fd",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 215926
+    },
+    {
+      "file": "event-recaps.png",
+      "sha256": "9e927f9f7daa2312b327d80f2cbd573754f54a38c2150fb373e39c2e89ebe08b",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 219027
+    },
+    {
+      "file": "event-registration.png",
+      "sha256": "ebe0074f3656b27981ad686427fd85f48d0337aaf0a3ffc91e74abe54f0287a8",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 220183
+    },
+    {
+      "file": "event-studio-motion.gif",
+      "sha256": "ff4488e73e1417cc7fce482c17f59edb525ed84fc759ff48e8218cfd11d70256",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 664414
+    },
+    {
+      "file": "event-studio.png",
+      "sha256": "8bf7476b46482c4eaf8f7d82ae47e30160f18d09601eeb1ecdc6151b9421ef7b",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 228925
+    },
+    {
+      "file": "event.png",
+      "sha256": "7c5dd1f0286effc43eec418d436cf3396db0e8898fbfd317a95919c6b15c597c",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 220260
+    },
+    {
+      "file": "game-event.png",
+      "sha256": "b1c1bb3b5d19cd9d61db8f28aa5588f70fd716a4634718900b1f3daeeb831c25",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 214999
+    },
+    {
+      "file": "game-knowledge.png",
+      "sha256": "872ed1b4cdb3fd159bf7b6ef3109576dacda01c6670c4d0418d8094cc1e477f1",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 214892
+    },
+    {
+      "file": "gaming-hub-motion.gif",
+      "sha256": "b4cc245c135c4e5b090bfe1d7d5566c5c7b9c6d65049e775fa1aacc65e733939",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 647836
+    },
+    {
+      "file": "gaming-hub.png",
+      "sha256": "8775090cb659aeddcf888d4e7b1a653f8e3c08803ea909bb2f9316c6a5fcbb17",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 205332
+    },
+    {
+      "file": "giveaway.png",
+      "sha256": "025a8876889dd5ef684ebb9fd07ab8170c2ac85a3011076f778c7b5d2585e3be",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 247518
+    },
+    {
+      "file": "help-wanted.png",
+      "sha256": "784efe7a2c5589105cf6d7df8e88814d1a4037c2a9cd709b24d77ea86648267b",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 262846
+    },
+    {
+      "file": "help.png",
+      "sha256": "b7ba530c4bf395158b20937a875dae4d19ae1733014ac4a26df7f9333b0da080",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 245195
+    },
+    {
+      "file": "incident-timeline.png",
+      "sha256": "5bbfb8b1dc5e52193cae812cf0d06cfaca4ffb4fa78f249e3cbc019f650f7300",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 225764
+    },
+    {
+      "file": "integrations.png",
+      "sha256": "12d41d06e4959e9cae846b4acec4331cb5623fcfd8a4e55070efcf5a5747e663",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 216832
+    },
+    {
+      "file": "interest-hub.png",
+      "sha256": "d3bd4b627770ffe3ca6655b831130fee4f34d47106dd17f2e3d50ad8904399bc",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 215631
+    },
+    {
+      "file": "knowledge-ops.png",
+      "sha256": "9a2f0a4665248856696ec2e264b4384b22d50986dc1fc88e2a9ca0702f7724ff",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 216069
+    },
+    {
+      "file": "knowledge.png",
+      "sha256": "cb6ecf623bb7ab54c547d1d9e77e85a69b7ae7f013a07ce611255e3d9959880f",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 235546
+    },
+    {
+      "file": "known-issues.png",
+      "sha256": "6d3c417b74a363b0c6f8903dc845b3c80e24d8f701a3dae759d1dddadd4763de",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 209659
+    },
+    {
+      "file": "language-center.png",
+      "sha256": "f6ac85458b0e2dcb2058678e4e5a7c00410587e540a07579db34d272a18d216e",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 234214
+    },
+    {
+      "file": "learning-analytics.png",
+      "sha256": "2036e205de4588d00937536bf0ef9f951c21fa941b4af8558ad75ca7f11b8093",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 230283
+    },
+    {
+      "file": "learning-paths.png",
+      "sha256": "f476ab6cb7527fae52ef1df2de25e06a5c71e553a508bc891c5d7690fa453c53",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 252835
+    },
+    {
+      "file": "lfg.png",
+      "sha256": "d8434231640f257ea59e65e0d5524dc0a2975a8ea6bcb921b6c03946a95ef6c4",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 231922
+    },
+    {
+      "file": "media-lab.png",
+      "sha256": "3c8c813f5bffba010343ca060bb17f66364f35e56cf6f9761cfb548e4a34d7e4",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 253466
+    },
+    {
+      "file": "media-review.png",
+      "sha256": "3665d2ca57937c3b482ae6bbf9dcbe3775f50426b6d4908c8a914c121b9dd226",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 221051
+    },
+    {
+      "file": "member-care-motion.gif",
+      "sha256": "ed5ba88fe25fd03c96e69e133b14bb5a24340a69589320cbd4ca7bcaa5bfd500",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 714306
+    },
+    {
+      "file": "member-care.png",
+      "sha256": "b720528743eab322969c46cb10ef4c887258c1466171f2341dceef17044822d7",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 220682
+    },
+    {
+      "file": "member-directory.png",
+      "sha256": "3444ed5f32c59104cbb476865515097bc26d22c7f575642c390a6137de9f1000",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 220071
+    },
+    {
+      "file": "member-ops.png",
+      "sha256": "794f3ab9fffe4155bd416fb2e515c7871b9d40438ccd207ae3246a5633897053",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 217269
+    },
+    {
+      "file": "member-services.png",
+      "sha256": "8bbd200c4093e2ff5c237e0008ad17740926637e92ca1aafc03a78ceac18beb1",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 228981
+    },
+    {
+      "file": "moderation.png",
+      "sha256": "57062a3b94a0e206a5d127d8d2bfe168ddebac5588fb2112207f495d26247903",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 216333
+    },
+    {
+      "file": "notifications.png",
+      "sha256": "c2094853b241a015794e4c801dfbcfb743eb661c2ea83e5703410ce20f4aac91",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 230296
+    },
+    {
+      "file": "partner-review.png",
+      "sha256": "17f1b51b218379a7f77be8808286bafa7726eff493d44b3cb15152db01e392fb",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 253330
+    },
+    {
+      "file": "partnerships.png",
+      "sha256": "8f5b81228330c7080d4db92ac9954289392747ec147ebac8879a1d9db3e934ea",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 206716
+    },
+    {
+      "file": "permission-review.png",
+      "sha256": "32f7486d0071d676985361eef2d652db04483ad92e1d439cddb2ea0cff3b2a8a",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 225129
+    },
+    {
+      "file": "privacy.png",
+      "sha256": "930c0888b9884e5cb7b012c143efe98f7f27da3d335eb99bbd3040945bff1658",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 209135
+    },
+    {
+      "file": "profile.png",
+      "sha256": "8969a5b95e2070e5add400f9458b6734556ac4735acbbca85aae656ac9a2fdf1",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 211708
+    },
+    {
+      "file": "project-lab-motion.gif",
+      "sha256": "7b555fbb6e91ccb39e9a11756316a578f75ec55e572e7b1cf0f5c9de74035566",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 600253
+    },
+    {
+      "file": "project-lab.png",
+      "sha256": "c776dcdab3a6ee9a75e2654520bb1e900535867f508545797bab5a8f14801a55",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 215030
+    },
+    {
+      "file": "project-showcase.png",
+      "sha256": "3ba3dfa6257f7fee47176f8307e74ab5f36f963b784fa5c9b80bfe69af492951",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 232529
+    },
+    {
+      "file": "provider-health.png",
+      "sha256": "fadcc6877f91ebcc1e102f0ad2de559002c79f2d3a13958409ca95a462d80a2a",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 205558
+    },
+    {
+      "file": "recommendation-review.png",
+      "sha256": "54c4cdd479819f6c7c19f7f2d454c0e92a4d2069fbcf624a3732930c4043c8fd",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 213621
+    },
+    {
+      "file": "recovery-drills.png",
+      "sha256": "8293051f8daf43f5a7a0b8067fe8088c4eb5ed64891e96e7d7217374e87ca6d9",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 215705
+    },
+    {
+      "file": "reliability-ops-motion.gif",
+      "sha256": "4aa3ed442fd93d5af86ea741087cd12dff7d71429e3dfb144bca3935451c05ea",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 677472
+    },
+    {
+      "file": "reliability-ops.png",
+      "sha256": "afe9de52d87c885ed497e075038e4640563855f58003258ffb90f0c598d7ae98",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 206001
+    },
+    {
+      "file": "repair.png",
+      "sha256": "1666d9ceb0faa12f8e808a9bbc32e20eb71f4e5ba19d8c1cbfbb1ae45d343d0c",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 205843
+    },
+    {
+      "file": "report-motion.gif",
+      "sha256": "34e9ba4ade6a0e3d05bdf851fc791baa16b4e1cda943ce919a6cce6925e00670",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 540208
+    },
+    {
+      "file": "report.png",
+      "sha256": "6bd378b415dd760a9c365ee106eab2b5787a845e587891cc6194bb291cadc64f",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 212408
+    },
+    {
+      "file": "resource-directory.png",
+      "sha256": "9aba7ec4a1d12afee99625c87d64fee304d21373deaf6ba478d36949e0799646",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 218310
+    },
+    {
+      "file": "role-gallery.png",
+      "sha256": "3f96324b50443f79d75ed173fc067900f12cfcbf357fb0a58d51886fdf617431",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 219585
+    },
+    {
+      "file": "roles.png",
+      "sha256": "2b44e9bd40199cd3d91a7a55a52a3cb58ae69e399bcce3ef15b0a01ab15b60bf",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 251616
+    },
+    {
+      "file": "rules.png",
+      "sha256": "0d33ab76b1c321c09f62a29ad45723580d5574f846842dc3663aae3a226749b4",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 203546
+    },
+    {
+      "file": "scene-presets.png",
+      "sha256": "d55e09154b5a8f994e69b216ee18c22169cf5104b9369c76ae8871ea50f8db92",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 254056
+    },
+    {
+      "file": "security-motion.gif",
+      "sha256": "5b8d5693d7999c07192fd10b6a423a4d9cbb7edf0d60374f84a4d46624c2586a",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 628367
+    },
+    {
+      "file": "security.png",
+      "sha256": "34b6397037671c808904a0f3778ae49d7f110b12e5b20bb3e0b134ac0c614801",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 222586
+    },
+    {
+      "file": "server-guide.png",
+      "sha256": "fb8659695f22c984f825a4e2cdafc2af9179327e728f5852494ec44d8ee7dfae",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 204355
+    },
+    {
+      "file": "server-pulse-motion.gif",
+      "sha256": "6ce4234d3b0cfa3379cae87d2c0686352bed50a089dbfaf15978f89ae1fb371a",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 575218
+    },
+    {
+      "file": "server-pulse.png",
+      "sha256": "edacea6e8239613f3866315604d55cebc4689fdece88ac97e73ef86164e171e5",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 202593
+    },
+    {
+      "file": "service-operations.png",
+      "sha256": "d04d167127c7d8043eddb02c53502d79bd466fdc1e8de300cc359f29983d0d3c",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 231990
+    },
+    {
+      "file": "staff.png",
+      "sha256": "91735b9c1d8acbb9772c6d7cf1348c85e7ce1217dea4efa4ecc95b81f37dee11",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 253097
+    },
+    {
+      "file": "status-motion.gif",
+      "sha256": "e58a2a981af118fd7f366e94fd49a40f9667e9eb8e07f6fc48b203413d78fdba",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 620324
+    },
+    {
+      "file": "status.png",
+      "sha256": "4259c2d3257d8a95c6c71a65514a3bde62486a96b21199aaba52fa00bdc4a1b1",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 218716
+    },
+    {
+      "file": "suggestion.png",
+      "sha256": "609d6629596a38b3d8f16b4120d431a7ccec9897edc359506dcf35b71b2930ae",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 203444
+    },
+    {
+      "file": "team-clan.png",
+      "sha256": "e1573c5166448a491ff9657137cda726de6b81211de02d7355488c92486b5f93",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 217011
+    },
+    {
+      "file": "theme-studio.png",
+      "sha256": "2959e9eacf354529e8e02749990a6094dbe66f883b77e90c4ec61c190640597b",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 220833
+    },
+    {
+      "file": "ticket-motion.gif",
+      "sha256": "539e11dd22d248f7aeffb99d1fa026c530219bb10f36f16ac3c9f3b0f3228e67",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 650969
+    },
+    {
+      "file": "ticket.png",
+      "sha256": "6ff44d67e27900c1f4cd1582c2edbdf883886b08972c004950cc0bcac97b9c28",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 263345
+    },
+    {
+      "file": "tournament-motion.gif",
+      "sha256": "93e4d8647112c91eafa0200c14d8fa3f4c3bfcb419308df29dd3fb3371a97a95",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 570494
+    },
+    {
+      "file": "tournament.png",
+      "sha256": "5a2976b9d77bf3d6b4751976d8ca1d41fa07f4df9b625c3ecdc2a4d9745643f2",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 201431
+    },
+    {
+      "file": "trust-center-motion.gif",
+      "sha256": "162f5b39d690ca029c82edb551fb513d2621d8d154314e0f2fcec95021f0adde",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 552558
+    },
+    {
+      "file": "trust-center.png",
+      "sha256": "a07f85496c1a54188af64764ee5f6fd3526b28de00354b44c0e2685563f9803c",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 224051
+    },
+    {
+      "file": "tutorial-library.png",
+      "sha256": "a883331746f6e452208cd8c6a7ae930b1409938c66bf9059b0bbd5ef569f8f0b",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 205037
+    },
+    {
+      "file": "verify-motion.gif",
+      "sha256": "f10d6e81d99e70bbc6a8a08fef54960e5531f30fba2758cd3e58c5b3f421319c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 622001
+    },
+    {
+      "file": "verify.png",
+      "sha256": "838505bd4a5cdc14750084e1947cf13beae02dfea24da0cd93634f56d420a5ba",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 223588
+    },
+    {
+      "file": "voice-lounge.png",
+      "sha256": "1a0194dc28dbfbf401022b1fd9c382779fb597fb65858c7c54d6b9c213b3efdb",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 217490
+    },
+    {
+      "file": "volunteer-center.png",
+      "sha256": "af96eaeb7cd04f8f613686295f00470637a9e11ce9df2473c3077eedf398d0aa",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 253116
+    },
+    {
+      "file": "welcome-motion.gif",
+      "sha256": "1c5321dd14b64edbe519b924c59a81d493ca6125a8c0ef6ba1daacdcd97d6dd5",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 643833
+    },
+    {
+      "file": "welcome.png",
+      "sha256": "c87f0f50e73d7316401a7cd0f27ec95b9d658d3da2285bb01a57f83d8d14efa0",
+      "dimensions": [
+        1600,
+        600
+      ],
+      "frames": 1,
+      "bytes": 229700
+    }
+  ]
+}

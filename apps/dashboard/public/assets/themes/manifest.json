@@ -1,0 +1,2998 @@
+{
+  "generatedAt": "2026-08-14T19:30:00.633546Z",
+  "generator": "scripts/generate-visual-assets-offline.py · prismatic-depth-v2",
+  "themes": 10,
+  "states": 11,
+  "assets": [
+    {
+      "file": "arena-core/hero.png",
+      "theme": "arena-core",
+      "state": null,
+      "mode": "STATIC",
+      "sha256": "828d63686fa817432a21c2ebfcdca143824aee8453823eb9ed598479eb138619",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 153855
+    },
+    {
+      "file": "arena-core/pulse-active.gif",
+      "theme": "arena-core",
+      "state": "ACTIVE",
+      "mode": "MOTION",
+      "sha256": "7997fb6e8377d4824aec5ef8cad95f00d7e2a0956d210f82987b8c9cca400541",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 595634
+    },
+    {
+      "file": "arena-core/pulse-active.png",
+      "theme": "arena-core",
+      "state": "ACTIVE",
+      "mode": "STATIC",
+      "sha256": "9f60765b4981d74b3a7079a9519651dc541a6954af9bfc7866455faa72ee8803",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 161167
+    },
+    {
+      "file": "arena-core/pulse-degraded.gif",
+      "theme": "arena-core",
+      "state": "DEGRADED",
+      "mode": "MOTION",
+      "sha256": "29986dc224b302399d283879d7b1377e37db6628a540954e002a754a8765676d",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 606205
+    },
+    {
+      "file": "arena-core/pulse-degraded.png",
+      "theme": "arena-core",
+      "state": "DEGRADED",
+      "mode": "STATIC",
+      "sha256": "8c1c0c47b7bfa247a8865815eed3279d21956f65762305a3fae70d0e4a6c6cd1",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 165237
+    },
+    {
+      "file": "arena-core/pulse-idle.gif",
+      "theme": "arena-core",
+      "state": "IDLE",
+      "mode": "MOTION",
+      "sha256": "4a478ec71386446af2237a7ac011732c22813c5536d63db4b1ef24ad9e14f9ba",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 678609
+    },
+    {
+      "file": "arena-core/pulse-idle.png",
+      "theme": "arena-core",
+      "state": "IDLE",
+      "mode": "STATIC",
+      "sha256": "43f310966b497c36517e38b12a09616f6b40bb83a2183868356034305594d822",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 177190
+    },
+    {
+      "file": "arena-core/pulse-incident.gif",
+      "theme": "arena-core",
+      "state": "INCIDENT",
+      "mode": "MOTION",
+      "sha256": "a61a0ad2bbcea9d38739736316438260129499ba67a752b52af252b882873dcc",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 576314
+    },
+    {
+      "file": "arena-core/pulse-incident.png",
+      "theme": "arena-core",
+      "state": "INCIDENT",
+      "mode": "STATIC",
+      "sha256": "2640d462ef1350317c628fe19e755c66d146cdd487e3082b9b8479bf42693281",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 157413
+    },
+    {
+      "file": "arena-core/pulse-live.gif",
+      "theme": "arena-core",
+      "state": "LIVE",
+      "mode": "MOTION",
+      "sha256": "bb631c77c65a2746b8ba963dbc7fc3a015ace02b8480f6cb1b564ed1fd6104be",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 602050
+    },
+    {
+      "file": "arena-core/pulse-live.png",
+      "theme": "arena-core",
+      "state": "LIVE",
+      "mode": "STATIC",
+      "sha256": "776a9c34b502ca7e33fa023efdf666aa06b49a59c40a3256a76cbb7e229081ab",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 159408
+    },
+    {
+      "file": "arena-core/pulse-maintenance.gif",
+      "theme": "arena-core",
+      "state": "MAINTENANCE",
+      "mode": "MOTION",
+      "sha256": "9542735cfc5088cb1b187101f05797cd3df4ccd8375560575469e7cf8778d21c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 635882
+    },
+    {
+      "file": "arena-core/pulse-maintenance.png",
+      "theme": "arena-core",
+      "state": "MAINTENANCE",
+      "mode": "STATIC",
+      "sha256": "d7021b49a8de894848ee16f2f2b63c8cf3dbfa2f464b8de48eaded64b08dfbea",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 168758
+    },
+    {
+      "file": "arena-core/pulse-ready.gif",
+      "theme": "arena-core",
+      "state": "READY",
+      "mode": "MOTION",
+      "sha256": "a31ce8a9c8c706bc65ac1981aaef90d75c2a237596a78c7f7c2c64afc94f060b",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 615748
+    },
+    {
+      "file": "arena-core/pulse-ready.png",
+      "theme": "arena-core",
+      "state": "READY",
+      "mode": "STATIC",
+      "sha256": "8bff420e5467c10ef2e9739dbeadcdbe985db64f40d82aab17d9c09f596c1d0c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 162205
+    },
+    {
+      "file": "arena-core/pulse-recovery.gif",
+      "theme": "arena-core",
+      "state": "RECOVERY",
+      "mode": "MOTION",
+      "sha256": "b694cda709fabbc65b1d8feb94022b9d3b53cd71029f6b8ad2b5fe5f9e75b46a",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 610144
+    },
+    {
+      "file": "arena-core/pulse-recovery.png",
+      "theme": "arena-core",
+      "state": "RECOVERY",
+      "mode": "STATIC",
+      "sha256": "d6b65dc2b0eb6cc900673364e5ccde339c948137548919ac68051fabb2c217d8",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 164087
+    },
+    {
+      "file": "arena-core/pulse-success.gif",
+      "theme": "arena-core",
+      "state": "SUCCESS",
+      "mode": "MOTION",
+      "sha256": "8714d37dfb79d4ba1bf4f88632a54919162138814c76e205d0961b3735ee53af",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 686488
+    },
+    {
+      "file": "arena-core/pulse-success.png",
+      "theme": "arena-core",
+      "state": "SUCCESS",
+      "mode": "STATIC",
+      "sha256": "60ecbae6c3e8608bb6e4ee1edd90a137f54778b4290d70978fa95b2227fbaab1",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 187327
+    },
+    {
+      "file": "arena-core/pulse-syncing.gif",
+      "theme": "arena-core",
+      "state": "SYNCING",
+      "mode": "MOTION",
+      "sha256": "91cab0e36bb453b1c66af2fbf8f890c1a1e2260c3f80557d762e33ec69e97ac7",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 675397
+    },
+    {
+      "file": "arena-core/pulse-syncing.png",
+      "theme": "arena-core",
+      "state": "SYNCING",
+      "mode": "STATIC",
+      "sha256": "2094601124ffddbf4d7afbd369ec118a5617a0c84b3189a564ec061d3144ac7d",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 186848
+    },
+    {
+      "file": "arena-core/pulse-watch.gif",
+      "theme": "arena-core",
+      "state": "WATCH",
+      "mode": "MOTION",
+      "sha256": "8bbf25897c430460849f3bf34740a50e40ba87889eea94aa9078e9f31a2942c9",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 603844
+    },
+    {
+      "file": "arena-core/pulse-watch.png",
+      "theme": "arena-core",
+      "state": "WATCH",
+      "mode": "STATIC",
+      "sha256": "712e573052e690f684614a47a1d929be3bb11a14e5755aeeef7b214850e6fa51",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 157823
+    },
+    {
+      "file": "aurora-grid/hero.png",
+      "theme": "aurora-grid",
+      "state": null,
+      "mode": "STATIC",
+      "sha256": "a353b3f2c60fb5f4f5e25fc53b5196f29097a9533199bbd5eb3041c71d3b66e6",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 160891
+    },
+    {
+      "file": "aurora-grid/pulse-active.gif",
+      "theme": "aurora-grid",
+      "state": "ACTIVE",
+      "mode": "MOTION",
+      "sha256": "d595834b86f1f4732648bc3d96050bbd577953e6e358faaea5131b53202e2a4c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 697672
+    },
+    {
+      "file": "aurora-grid/pulse-active.png",
+      "theme": "aurora-grid",
+      "state": "ACTIVE",
+      "mode": "STATIC",
+      "sha256": "519d25b8c7cc31aab7ff3f19377eeb35001ff18bb072a871d967a360436e4e8d",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 184862
+    },
+    {
+      "file": "aurora-grid/pulse-degraded.gif",
+      "theme": "aurora-grid",
+      "state": "DEGRADED",
+      "mode": "MOTION",
+      "sha256": "f049647b02bdb00ffc9013fc88dc97da1ad1652e2a90b5a8686c0993ef7f7701",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 619747
+    },
+    {
+      "file": "aurora-grid/pulse-degraded.png",
+      "theme": "aurora-grid",
+      "state": "DEGRADED",
+      "mode": "STATIC",
+      "sha256": "7e222554080e6a9037449a02c151fb7d888a389f899beb2d094ba4a3bc0494eb",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 165803
+    },
+    {
+      "file": "aurora-grid/pulse-idle.gif",
+      "theme": "aurora-grid",
+      "state": "IDLE",
+      "mode": "MOTION",
+      "sha256": "3a46366a98d07e9a9cb41028ea7f4998c7f07643dc1100ff25d1bb59e178bc3e",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 625235
+    },
+    {
+      "file": "aurora-grid/pulse-idle.png",
+      "theme": "aurora-grid",
+      "state": "IDLE",
+      "mode": "STATIC",
+      "sha256": "b867dbf7929b4f17faa07d1d79f22494510724b7e71464969bfa7ad55951dc2f",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 159932
+    },
+    {
+      "file": "aurora-grid/pulse-incident.gif",
+      "theme": "aurora-grid",
+      "state": "INCIDENT",
+      "mode": "MOTION",
+      "sha256": "4d74e4d73348060d581226d959e2bd6f8429db04c50e20bbe2dba145604bf145",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 685266
+    },
+    {
+      "file": "aurora-grid/pulse-incident.png",
+      "theme": "aurora-grid",
+      "state": "INCIDENT",
+      "mode": "STATIC",
+      "sha256": "d95dc3a78925d6a86a4043aa2022cac38c0b5c2ef76fcda440f47c7309d01fbd",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 187315
+    },
+    {
+      "file": "aurora-grid/pulse-live.gif",
+      "theme": "aurora-grid",
+      "state": "LIVE",
+      "mode": "MOTION",
+      "sha256": "7ac6e78b5b426a8e53c648e9a0ff181e311627606fe7cca572c05c0898d8db7d",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 688657
+    },
+    {
+      "file": "aurora-grid/pulse-live.png",
+      "theme": "aurora-grid",
+      "state": "LIVE",
+      "mode": "STATIC",
+      "sha256": "b31beb9ee5d9227bd71fd72642dd10313b59a084acc774adf43940a37d0b8d0d",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 172495
+    },
+    {
+      "file": "aurora-grid/pulse-maintenance.gif",
+      "theme": "aurora-grid",
+      "state": "MAINTENANCE",
+      "mode": "MOTION",
+      "sha256": "66f513d316905dd89aba2f2374084a016ad1d48ece1182efb8bcf3934039da8b",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 597206
+    },
+    {
+      "file": "aurora-grid/pulse-maintenance.png",
+      "theme": "aurora-grid",
+      "state": "MAINTENANCE",
+      "mode": "STATIC",
+      "sha256": "ab4f09eb9d6e176d5dcf1333a50aab071b2da9fcf6a38ec002539d8591c18a5c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 163595
+    },
+    {
+      "file": "aurora-grid/pulse-ready.gif",
+      "theme": "aurora-grid",
+      "state": "READY",
+      "mode": "MOTION",
+      "sha256": "18c69639e01c369ffb8d5970e60bbe3fbb875814346098e748dafa2ad10d4340",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 684168
+    },
+    {
+      "file": "aurora-grid/pulse-ready.png",
+      "theme": "aurora-grid",
+      "state": "READY",
+      "mode": "STATIC",
+      "sha256": "f9cb2467f978c7f02127fe9247e734d6a042229cd6c267fdf79b4bba5c9e9378",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 168977
+    },
+    {
+      "file": "aurora-grid/pulse-recovery.gif",
+      "theme": "aurora-grid",
+      "state": "RECOVERY",
+      "mode": "MOTION",
+      "sha256": "f15d3acfa502473e7b7b3121348185f20bf1e32f115309b35c7a43f6448d4740",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 691700
+    },
+    {
+      "file": "aurora-grid/pulse-recovery.png",
+      "theme": "aurora-grid",
+      "state": "RECOVERY",
+      "mode": "STATIC",
+      "sha256": "f63ee2d858eacea6550671006bec6d552646215650061d06adac641767b94680",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 172855
+    },
+    {
+      "file": "aurora-grid/pulse-success.gif",
+      "theme": "aurora-grid",
+      "state": "SUCCESS",
+      "mode": "MOTION",
+      "sha256": "c92c7fc3d3ec041e61434df72c4a9b957318b88e7269d385b1e02c53f8432b06",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 611295
+    },
+    {
+      "file": "aurora-grid/pulse-success.png",
+      "theme": "aurora-grid",
+      "state": "SUCCESS",
+      "mode": "STATIC",
+      "sha256": "82b4d2d38f8a3a32fd4e2ca96c51761a4330c0988e3168eb39cf6734dd32d9cd",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 152963
+    },
+    {
+      "file": "aurora-grid/pulse-syncing.gif",
+      "theme": "aurora-grid",
+      "state": "SYNCING",
+      "mode": "MOTION",
+      "sha256": "1fa0186f5949f2c5298823091d446ced64ab1e10398459b7ca3f52148b145e17",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 600754
+    },
+    {
+      "file": "aurora-grid/pulse-syncing.png",
+      "theme": "aurora-grid",
+      "state": "SYNCING",
+      "mode": "STATIC",
+      "sha256": "77a7a5337b5d8a92b785595b8c181bb5d725313fc3fc5b485222a840f0ca6708",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 149154
+    },
+    {
+      "file": "aurora-grid/pulse-watch.gif",
+      "theme": "aurora-grid",
+      "state": "WATCH",
+      "mode": "MOTION",
+      "sha256": "38d9104d97bbbb1ee0bdc76f56881f018885145c3d397fbc45e06bcd750c7f51",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 701193
+    },
+    {
+      "file": "aurora-grid/pulse-watch.png",
+      "theme": "aurora-grid",
+      "state": "WATCH",
+      "mode": "STATIC",
+      "sha256": "48c9744705cb5c7579b9203ab4473432ff1dd21de2e6c68da790ab7f885fdfac",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 196226
+    },
+    {
+      "file": "celestial/hero.png",
+      "theme": "celestial",
+      "state": null,
+      "mode": "STATIC",
+      "sha256": "1a5b641b9fc4655f16dba49a2d48951fe2cfa1a07c10649ffe8713bfbe3afcb9",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 187017
+    },
+    {
+      "file": "celestial/pulse-active.gif",
+      "theme": "celestial",
+      "state": "ACTIVE",
+      "mode": "MOTION",
+      "sha256": "6544db70f97eff78699e93448226954aa14332622329fa5b7d298eead8785caa",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 608586
+    },
+    {
+      "file": "celestial/pulse-active.png",
+      "theme": "celestial",
+      "state": "ACTIVE",
+      "mode": "STATIC",
+      "sha256": "71072fdaf8335fb24a005ad79c4b9c3b594ae49a896ff084e8fd5c3fc281044f",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 160802
+    },
+    {
+      "file": "celestial/pulse-degraded.gif",
+      "theme": "celestial",
+      "state": "DEGRADED",
+      "mode": "MOTION",
+      "sha256": "a84399c15837d65506ef2905622ddc8f605bb0f6626a5e1868bd1ea7ef413b8f",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 612715
+    },
+    {
+      "file": "celestial/pulse-degraded.png",
+      "theme": "celestial",
+      "state": "DEGRADED",
+      "mode": "STATIC",
+      "sha256": "6172d9b53ee2d73035d9000e9fe9995bae53df56040880ddcc6de556191c0060",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 172048
+    },
+    {
+      "file": "celestial/pulse-idle.gif",
+      "theme": "celestial",
+      "state": "IDLE",
+      "mode": "MOTION",
+      "sha256": "719e659af8b10ac678a1cc9a24d8edadce301d58eb6c3f2c59949b704b125101",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 723470
+    },
+    {
+      "file": "celestial/pulse-idle.png",
+      "theme": "celestial",
+      "state": "IDLE",
+      "mode": "STATIC",
+      "sha256": "0caeea914385ce7a831952965f9fd1a42be82f78af498051a324a21102695b34",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 194096
+    },
+    {
+      "file": "celestial/pulse-incident.gif",
+      "theme": "celestial",
+      "state": "INCIDENT",
+      "mode": "MOTION",
+      "sha256": "f38a2607523ff279693326ad9dceebec7819923a1342e7b46fc72631f35cc802",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 577887
+    },
+    {
+      "file": "celestial/pulse-incident.png",
+      "theme": "celestial",
+      "state": "INCIDENT",
+      "mode": "STATIC",
+      "sha256": "0d3cd2189e8e213a51ac7d9d6f4cdbe1e4015043c93d52c43b428d03807dff2c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 163328
+    },
+    {
+      "file": "celestial/pulse-live.gif",
+      "theme": "celestial",
+      "state": "LIVE",
+      "mode": "MOTION",
+      "sha256": "9fb1b52168de23c4331b1fce062cade35a842d5f2bf924441eb015846a104734",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 577013
+    },
+    {
+      "file": "celestial/pulse-live.png",
+      "theme": "celestial",
+      "state": "LIVE",
+      "mode": "STATIC",
+      "sha256": "197d61b8ce1478844e3bdb7a1715eab7ecc54347f5e4a644647fc6543edd58ed",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 151647
+    },
+    {
+      "file": "celestial/pulse-maintenance.gif",
+      "theme": "celestial",
+      "state": "MAINTENANCE",
+      "mode": "MOTION",
+      "sha256": "76025190dd37b00b2e02d2efc45e976b210912e78572d5be32ea626926503e4f",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 654652
+    },
+    {
+      "file": "celestial/pulse-maintenance.png",
+      "theme": "celestial",
+      "state": "MAINTENANCE",
+      "mode": "STATIC",
+      "sha256": "df04f34f9595ea01eec7983f1a0739c2e10eada3ca2c722889245d3ae8955567",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 192981
+    },
+    {
+      "file": "celestial/pulse-ready.gif",
+      "theme": "celestial",
+      "state": "READY",
+      "mode": "MOTION",
+      "sha256": "731b94928cbbfb64614c0f442fa8e1a3c9b39f62d091edaa840ccfda2e92c3cb",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 681818
+    },
+    {
+      "file": "celestial/pulse-ready.png",
+      "theme": "celestial",
+      "state": "READY",
+      "mode": "STATIC",
+      "sha256": "9f2bc99ec8903e21b87a09aaefc426165190ed52dcecad5c5fb48465d31b89d7",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 182906
+    },
+    {
+      "file": "celestial/pulse-recovery.gif",
+      "theme": "celestial",
+      "state": "RECOVERY",
+      "mode": "MOTION",
+      "sha256": "5b0d840b247a6a565edc836bfa50bf429aee3f7ae0aebc9c00625e2532796343",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 630086
+    },
+    {
+      "file": "celestial/pulse-recovery.png",
+      "theme": "celestial",
+      "state": "RECOVERY",
+      "mode": "STATIC",
+      "sha256": "88d812765417fc50e81134ba72af6270c79492c44732f5cddd0f48f9148381c0",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 176175
+    },
+    {
+      "file": "celestial/pulse-success.gif",
+      "theme": "celestial",
+      "state": "SUCCESS",
+      "mode": "MOTION",
+      "sha256": "697d6986df0336439dc8d82500385b49ec85adb31f766030ba990dd4bde0225c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 622411
+    },
+    {
+      "file": "celestial/pulse-success.png",
+      "theme": "celestial",
+      "state": "SUCCESS",
+      "mode": "STATIC",
+      "sha256": "40278b54db692259f9eaf63cc77213f9a9a864360bb335ed349d7a4cf652983e",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 168443
+    },
+    {
+      "file": "celestial/pulse-syncing.gif",
+      "theme": "celestial",
+      "state": "SYNCING",
+      "mode": "MOTION",
+      "sha256": "b39795fc4580cb772bb426ea7f2a1610107e4426036a993335d931caa4e4d579",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 582394
+    },
+    {
+      "file": "celestial/pulse-syncing.png",
+      "theme": "celestial",
+      "state": "SYNCING",
+      "mode": "STATIC",
+      "sha256": "89a4fe2aa0a87830cc7bb5afc64b43131a2c1caa23821ba862b028cbd4ac6aa7",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 156316
+    },
+    {
+      "file": "celestial/pulse-watch.gif",
+      "theme": "celestial",
+      "state": "WATCH",
+      "mode": "MOTION",
+      "sha256": "fce41100587a382c019593b38b9f4c419c7a0f41828a7df75ee8478836ebecda",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 570393
+    },
+    {
+      "file": "celestial/pulse-watch.png",
+      "theme": "celestial",
+      "state": "WATCH",
+      "mode": "STATIC",
+      "sha256": "cde2d619cb4d57e0cb638e5c84420d28bffe617dfd78a0932559df9fe7668719",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 168232
+    },
+    {
+      "file": "command-bridge/hero.png",
+      "theme": "command-bridge",
+      "state": null,
+      "mode": "STATIC",
+      "sha256": "b545aa885ded77e2bb6657e3182a2d0b7e3b58f457f698d4a8903ecb16566b53",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 158065
+    },
+    {
+      "file": "command-bridge/pulse-active.gif",
+      "theme": "command-bridge",
+      "state": "ACTIVE",
+      "mode": "MOTION",
+      "sha256": "0508c8296003261e80cc995330164c8c52471c4cdf25c01419ee9c7c4aa3272a",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 570425
+    },
+    {
+      "file": "command-bridge/pulse-active.png",
+      "theme": "command-bridge",
+      "state": "ACTIVE",
+      "mode": "STATIC",
+      "sha256": "3c423afe16c85b94d54e035b07028305e5e66d2a19926e0276b0e24eba2a5ae9",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 154101
+    },
+    {
+      "file": "command-bridge/pulse-degraded.gif",
+      "theme": "command-bridge",
+      "state": "DEGRADED",
+      "mode": "MOTION",
+      "sha256": "db2c07e570d082b58df4b0ff059b96d102c709059ae8a71097a002e2bdeef912",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 524318
+    },
+    {
+      "file": "command-bridge/pulse-degraded.png",
+      "theme": "command-bridge",
+      "state": "DEGRADED",
+      "mode": "STATIC",
+      "sha256": "40b3832a4f7735a8678db1d6e0fea2dd8839bce2f2f747c7738caf549675347d",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 155556
+    },
+    {
+      "file": "command-bridge/pulse-idle.gif",
+      "theme": "command-bridge",
+      "state": "IDLE",
+      "mode": "MOTION",
+      "sha256": "d877921cdbaf3a5c58f40a81816e1c302a835365fe2244f70284c145653b7c3d",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 734593
+    },
+    {
+      "file": "command-bridge/pulse-idle.png",
+      "theme": "command-bridge",
+      "state": "IDLE",
+      "mode": "STATIC",
+      "sha256": "443f0c7417af1c42e49a6d43403ed102a4e54e733a7d56da3f98a96924df276a",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 193438
+    },
+    {
+      "file": "command-bridge/pulse-incident.gif",
+      "theme": "command-bridge",
+      "state": "INCIDENT",
+      "mode": "MOTION",
+      "sha256": "edc8622f835138c80d4dfcbbfebb21aca0bfc9e053e7f5a10c4d6b26956ee38c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 538427
+    },
+    {
+      "file": "command-bridge/pulse-incident.png",
+      "theme": "command-bridge",
+      "state": "INCIDENT",
+      "mode": "STATIC",
+      "sha256": "8f8ad56fd2bb5210a7a508fc1b0a294e4935ddf4233adbddbd4b0d889a7d9ffa",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 160798
+    },
+    {
+      "file": "command-bridge/pulse-live.gif",
+      "theme": "command-bridge",
+      "state": "LIVE",
+      "mode": "MOTION",
+      "sha256": "41636416248c9267c1be86eb1901e87eba363c8bdc91819e6c9dbba191be9db9",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 589945
+    },
+    {
+      "file": "command-bridge/pulse-live.png",
+      "theme": "command-bridge",
+      "state": "LIVE",
+      "mode": "STATIC",
+      "sha256": "077ba9b934cba8364d54b95a34679faf8839082aac3142a9a1541e46fb8bd6b6",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 157935
+    },
+    {
+      "file": "command-bridge/pulse-maintenance.gif",
+      "theme": "command-bridge",
+      "state": "MAINTENANCE",
+      "mode": "MOTION",
+      "sha256": "3585f8407a0e3b28b10401c8407e8d3c3d1152c8dac7f750f7dfaecf7cb17cdd",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 692743
+    },
+    {
+      "file": "command-bridge/pulse-maintenance.png",
+      "theme": "command-bridge",
+      "state": "MAINTENANCE",
+      "mode": "STATIC",
+      "sha256": "9423962ae935f9a54a155cbde2debaa7d12cfb2d3292e096415062d5461c7001",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 195469
+    },
+    {
+      "file": "command-bridge/pulse-ready.gif",
+      "theme": "command-bridge",
+      "state": "READY",
+      "mode": "MOTION",
+      "sha256": "f0ae7099a3f207e34ad6aee11956fe3ede2da4ae607462271b72e72039baaa1c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 674338
+    },
+    {
+      "file": "command-bridge/pulse-ready.png",
+      "theme": "command-bridge",
+      "state": "READY",
+      "mode": "STATIC",
+      "sha256": "0da2feae2fb0617e87f9c4f749e3f4fe02f7d22f92fd1fbe22663bdc90c3b2f8",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 175598
+    },
+    {
+      "file": "command-bridge/pulse-recovery.gif",
+      "theme": "command-bridge",
+      "state": "RECOVERY",
+      "mode": "MOTION",
+      "sha256": "d2188c4f88e0d00dd01e1ed27d6c4bf6b80ed199da1628a2bc9445139f3036cc",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 667948
+    },
+    {
+      "file": "command-bridge/pulse-recovery.png",
+      "theme": "command-bridge",
+      "state": "RECOVERY",
+      "mode": "STATIC",
+      "sha256": "b84ed34ddf1f6e3ee0e32126d2c35550ae0d79ddb97b6fb8cef34bbe7e787c41",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 183591
+    },
+    {
+      "file": "command-bridge/pulse-success.gif",
+      "theme": "command-bridge",
+      "state": "SUCCESS",
+      "mode": "MOTION",
+      "sha256": "7b96cc159ae6b2fb17672e8f552e6e38c0ef52a4a302daae2383a85de5184ff9",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 591521
+    },
+    {
+      "file": "command-bridge/pulse-success.png",
+      "theme": "command-bridge",
+      "state": "SUCCESS",
+      "mode": "STATIC",
+      "sha256": "44d08b731a1a730c4ac7c72cb40ea074b8835e3c477b52313e556c23619c637e",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 158522
+    },
+    {
+      "file": "command-bridge/pulse-syncing.gif",
+      "theme": "command-bridge",
+      "state": "SYNCING",
+      "mode": "MOTION",
+      "sha256": "3e5604767c4eac2a70584de4c1425f23a188153ecc7b102a7e6ce61617738fe9",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 593823
+    },
+    {
+      "file": "command-bridge/pulse-syncing.png",
+      "theme": "command-bridge",
+      "state": "SYNCING",
+      "mode": "STATIC",
+      "sha256": "cbfbffe27b6f13ef984548a1382bf5f324e8b8e7459dd980c6c68d63a172ba15",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 159280
+    },
+    {
+      "file": "command-bridge/pulse-watch.gif",
+      "theme": "command-bridge",
+      "state": "WATCH",
+      "mode": "MOTION",
+      "sha256": "9c10f29d559051b94a0b0b55b1772080f05962cde9feec472b50f720c4a906ac",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 672253
+    },
+    {
+      "file": "command-bridge/pulse-watch.png",
+      "theme": "command-bridge",
+      "state": "WATCH",
+      "mode": "STATIC",
+      "sha256": "d97d38842bbfe50c501a1517706f84d1cae92db27cc46a253983d0b4a905192f",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 181967
+    },
+    {
+      "file": "minimal-mono/hero.png",
+      "theme": "minimal-mono",
+      "state": null,
+      "mode": "STATIC",
+      "sha256": "67bc9bb1293e5b9cb37796c39df3fbea0fe1c3ce3cc5de14bf0496372f3d5f4c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 219584
+    },
+    {
+      "file": "minimal-mono/pulse-active.gif",
+      "theme": "minimal-mono",
+      "state": "ACTIVE",
+      "mode": "MOTION",
+      "sha256": "b09ddde0c3f5d149cd2c913ce1a31bcce88580d5d8902be72c8f3a1413901836",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 589969
+    },
+    {
+      "file": "minimal-mono/pulse-active.png",
+      "theme": "minimal-mono",
+      "state": "ACTIVE",
+      "mode": "STATIC",
+      "sha256": "abd6044f9c5a395740db1a985fc61959a18a27ee4191d2b82b974ef3cf2726a2",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 176904
+    },
+    {
+      "file": "minimal-mono/pulse-degraded.gif",
+      "theme": "minimal-mono",
+      "state": "DEGRADED",
+      "mode": "MOTION",
+      "sha256": "774291e77961fd5e3157f6c99908de20c1a0ee495b9073a91186a6c105c1ea2d",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 622541
+    },
+    {
+      "file": "minimal-mono/pulse-degraded.png",
+      "theme": "minimal-mono",
+      "state": "DEGRADED",
+      "mode": "STATIC",
+      "sha256": "b4d716a7035a715b06227d420bf4f3dc85be18042fb1927b3fc445e3e9ef839c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 184141
+    },
+    {
+      "file": "minimal-mono/pulse-idle.gif",
+      "theme": "minimal-mono",
+      "state": "IDLE",
+      "mode": "MOTION",
+      "sha256": "49930f308d435a5622ffab1804e505b828b70e467d154374c57787f5e5f972a1",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 639862
+    },
+    {
+      "file": "minimal-mono/pulse-idle.png",
+      "theme": "minimal-mono",
+      "state": "IDLE",
+      "mode": "STATIC",
+      "sha256": "21369b761dad6c106d363a8db036bf205018cdba1ab8381004ab98084fd4511a",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 189140
+    },
+    {
+      "file": "minimal-mono/pulse-incident.gif",
+      "theme": "minimal-mono",
+      "state": "INCIDENT",
+      "mode": "MOTION",
+      "sha256": "5d4d026bd5532d2a06b52d1916398fd663f2ae1ee34b36d259cc6d184087fe72",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 707294
+    },
+    {
+      "file": "minimal-mono/pulse-incident.png",
+      "theme": "minimal-mono",
+      "state": "INCIDENT",
+      "mode": "STATIC",
+      "sha256": "f1a11bf471c84b691b5eb385347f1144591711e9e0c3db3f5c5936ee16c8c207",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 218663
+    },
+    {
+      "file": "minimal-mono/pulse-live.gif",
+      "theme": "minimal-mono",
+      "state": "LIVE",
+      "mode": "MOTION",
+      "sha256": "18793672f64c6e4eb2453f5832a800ffb96906e2a8d36b04a370eb7539bce4f2",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 595450
+    },
+    {
+      "file": "minimal-mono/pulse-live.png",
+      "theme": "minimal-mono",
+      "state": "LIVE",
+      "mode": "STATIC",
+      "sha256": "652d1a9da20a918fb99ee625c76fe969639742f8b58320c000ede22ab9676a07",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 183425
+    },
+    {
+      "file": "minimal-mono/pulse-maintenance.gif",
+      "theme": "minimal-mono",
+      "state": "MAINTENANCE",
+      "mode": "MOTION",
+      "sha256": "cde1da3ba8ddecf4e384072d6c3f175141bc2ef154d5310366ab89f3ff8fa34e",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 637853
+    },
+    {
+      "file": "minimal-mono/pulse-maintenance.png",
+      "theme": "minimal-mono",
+      "state": "MAINTENANCE",
+      "mode": "STATIC",
+      "sha256": "85009bca3ba694af3d8c8c248af41458882a7d0f4dc83259a537f946ddd65ef3",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 195048
+    },
+    {
+      "file": "minimal-mono/pulse-ready.gif",
+      "theme": "minimal-mono",
+      "state": "READY",
+      "mode": "MOTION",
+      "sha256": "9664b0bb6a67abc51f2116af92ea7276d08b54b99982b9c0230347a05e25288d",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 584985
+    },
+    {
+      "file": "minimal-mono/pulse-ready.png",
+      "theme": "minimal-mono",
+      "state": "READY",
+      "mode": "STATIC",
+      "sha256": "1c741cbd7fa5dccb0ae59949976e282ecf4f8fd97d92aaca799607061b0ac766",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 180384
+    },
+    {
+      "file": "minimal-mono/pulse-recovery.gif",
+      "theme": "minimal-mono",
+      "state": "RECOVERY",
+      "mode": "MOTION",
+      "sha256": "25684e614e0d9fde871c8b1abe915fe628f8b316315c8a7fdd9fc9c90b41e8e9",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 570231
+    },
+    {
+      "file": "minimal-mono/pulse-recovery.png",
+      "theme": "minimal-mono",
+      "state": "RECOVERY",
+      "mode": "STATIC",
+      "sha256": "ef331ffbf122a1234ef0f0e106840a17d901a258a70457d385c5bc079bc0b58a",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 166471
+    },
+    {
+      "file": "minimal-mono/pulse-success.gif",
+      "theme": "minimal-mono",
+      "state": "SUCCESS",
+      "mode": "MOTION",
+      "sha256": "88b9ed7be347419617b96462fa9aee08f37b1806d911d4f1993cd072ed5af0e5",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 595792
+    },
+    {
+      "file": "minimal-mono/pulse-success.png",
+      "theme": "minimal-mono",
+      "state": "SUCCESS",
+      "mode": "STATIC",
+      "sha256": "bc22e9c8d8b7c3817f7e759c6df8e193efb442f8db4f3959882b7e7674af1b68",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 188935
+    },
+    {
+      "file": "minimal-mono/pulse-syncing.gif",
+      "theme": "minimal-mono",
+      "state": "SYNCING",
+      "mode": "MOTION",
+      "sha256": "a1db42ec4a83ea3fe3f9435e92bfd04749433a43aa91b3860a7d02d8570a20c6",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 597172
+    },
+    {
+      "file": "minimal-mono/pulse-syncing.png",
+      "theme": "minimal-mono",
+      "state": "SYNCING",
+      "mode": "STATIC",
+      "sha256": "d0346de05b51f102ccbe93b423272e7bd12807422fe4a93bd422b14ee83cefb0",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 183059
+    },
+    {
+      "file": "minimal-mono/pulse-watch.gif",
+      "theme": "minimal-mono",
+      "state": "WATCH",
+      "mode": "MOTION",
+      "sha256": "ff3518b79969ecb4090a73871f8c4a0754c0b6b9deb5d3d357523b1ccd98a23a",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 606897
+    },
+    {
+      "file": "minimal-mono/pulse-watch.png",
+      "theme": "minimal-mono",
+      "state": "WATCH",
+      "mode": "STATIC",
+      "sha256": "09cd13adc816f27e9f840190aa6461d417f42d5a7def6dcdff4c4018aab5be96",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 181009
+    },
+    {
+      "file": "obsidian-luxe/hero.png",
+      "theme": "obsidian-luxe",
+      "state": null,
+      "mode": "STATIC",
+      "sha256": "386aef810b3e6fe611e9c069af8cd8fe9c2ea16a9fbb8c08d1173d85b0ec8afc",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 160393
+    },
+    {
+      "file": "obsidian-luxe/pulse-active.gif",
+      "theme": "obsidian-luxe",
+      "state": "ACTIVE",
+      "mode": "MOTION",
+      "sha256": "972423c06bcdb9cef00676b29c2147639dcb3c21c0d39f908b62b7251a151d35",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 563187
+    },
+    {
+      "file": "obsidian-luxe/pulse-active.png",
+      "theme": "obsidian-luxe",
+      "state": "ACTIVE",
+      "mode": "STATIC",
+      "sha256": "4eb1c0c0eab740181b8c1f3af5b22564b903df0bb1c4f816022974f3ef0a1e64",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 150602
+    },
+    {
+      "file": "obsidian-luxe/pulse-degraded.gif",
+      "theme": "obsidian-luxe",
+      "state": "DEGRADED",
+      "mode": "MOTION",
+      "sha256": "93f8e444335145b2222b3e53f7a2736476a6c29304814dc46a7596b71360b2ac",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 543602
+    },
+    {
+      "file": "obsidian-luxe/pulse-degraded.png",
+      "theme": "obsidian-luxe",
+      "state": "DEGRADED",
+      "mode": "STATIC",
+      "sha256": "7f7e9f83e77e2f97334cb5e030f81bb2f0653743819664b53217c08d75830455",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 150291
+    },
+    {
+      "file": "obsidian-luxe/pulse-idle.gif",
+      "theme": "obsidian-luxe",
+      "state": "IDLE",
+      "mode": "MOTION",
+      "sha256": "bca46b570698b1061305a7f1df063b0cb1b08660fa091830529ac4b25821408a",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 580073
+    },
+    {
+      "file": "obsidian-luxe/pulse-idle.png",
+      "theme": "obsidian-luxe",
+      "state": "IDLE",
+      "mode": "STATIC",
+      "sha256": "1f81f83159ffa0a223a0ecce2cf043e4cf28b41e5682e19affb51eeea2a1017c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 161725
+    },
+    {
+      "file": "obsidian-luxe/pulse-incident.gif",
+      "theme": "obsidian-luxe",
+      "state": "INCIDENT",
+      "mode": "MOTION",
+      "sha256": "7ea5b7d85c95546f538648d98709ab5723e5d5388ed818ca3627d884434e6d86",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 539696
+    },
+    {
+      "file": "obsidian-luxe/pulse-incident.png",
+      "theme": "obsidian-luxe",
+      "state": "INCIDENT",
+      "mode": "STATIC",
+      "sha256": "2ad3c0c9afce8ab129be95e09266e49e7d78ba06be3c4d8d59c74665211ed8dd",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 150939
+    },
+    {
+      "file": "obsidian-luxe/pulse-live.gif",
+      "theme": "obsidian-luxe",
+      "state": "LIVE",
+      "mode": "MOTION",
+      "sha256": "722e380db743194f1c0b71996051ab88a285ab5dee711a7d2bf65ae644e59d3a",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 665984
+    },
+    {
+      "file": "obsidian-luxe/pulse-live.png",
+      "theme": "obsidian-luxe",
+      "state": "LIVE",
+      "mode": "STATIC",
+      "sha256": "73f84b4ab6cc342b67fd0da73ece7b9eb7b6b333af41ebbf353fbc6240350841",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 185305
+    },
+    {
+      "file": "obsidian-luxe/pulse-maintenance.gif",
+      "theme": "obsidian-luxe",
+      "state": "MAINTENANCE",
+      "mode": "MOTION",
+      "sha256": "9aa6fb78ea80a94bf2a2fde7d5e615bd7a036bb55558e823e06107bdfb28d534",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 596457
+    },
+    {
+      "file": "obsidian-luxe/pulse-maintenance.png",
+      "theme": "obsidian-luxe",
+      "state": "MAINTENANCE",
+      "mode": "STATIC",
+      "sha256": "8906d94ec2296e51fda7a7beb7c144c00d5a115fcaf35f5f3df42397f78a2dd9",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 163035
+    },
+    {
+      "file": "obsidian-luxe/pulse-ready.gif",
+      "theme": "obsidian-luxe",
+      "state": "READY",
+      "mode": "MOTION",
+      "sha256": "572733132a42b4775d252c8baa0b29aa234d5cac31aa8120d020e62fd630e702",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 671822
+    },
+    {
+      "file": "obsidian-luxe/pulse-ready.png",
+      "theme": "obsidian-luxe",
+      "state": "READY",
+      "mode": "STATIC",
+      "sha256": "d257999848755d49034a0ef02cb96159313102e748a14ac3fea82c87cb5435d9",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 185523
+    },
+    {
+      "file": "obsidian-luxe/pulse-recovery.gif",
+      "theme": "obsidian-luxe",
+      "state": "RECOVERY",
+      "mode": "MOTION",
+      "sha256": "62347e335ae5f71839d3a27c3d21d6c127da559402e0c0401d71f9254a6d7442",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 558114
+    },
+    {
+      "file": "obsidian-luxe/pulse-recovery.png",
+      "theme": "obsidian-luxe",
+      "state": "RECOVERY",
+      "mode": "STATIC",
+      "sha256": "c8a4de27b1d75704fa0967d2153bb9ff903332e18067ec5c2c4c871106149a42",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 151362
+    },
+    {
+      "file": "obsidian-luxe/pulse-success.gif",
+      "theme": "obsidian-luxe",
+      "state": "SUCCESS",
+      "mode": "MOTION",
+      "sha256": "7fa2d9f687394eaff1fbeb86b617703b314b0cabdf30da00ed33462de2ccefdc",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 599541
+    },
+    {
+      "file": "obsidian-luxe/pulse-success.png",
+      "theme": "obsidian-luxe",
+      "state": "SUCCESS",
+      "mode": "STATIC",
+      "sha256": "55ee2b732147a29ef43c00c8773b4ff3c59ff8f1bfbf42f1c311345e53bfe2a9",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 156984
+    },
+    {
+      "file": "obsidian-luxe/pulse-syncing.gif",
+      "theme": "obsidian-luxe",
+      "state": "SYNCING",
+      "mode": "MOTION",
+      "sha256": "738f3cc47f4e56b4167307131d286dc4ed52e014cea3ab11569a394b6f621aa8",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 663632
+    },
+    {
+      "file": "obsidian-luxe/pulse-syncing.png",
+      "theme": "obsidian-luxe",
+      "state": "SYNCING",
+      "mode": "STATIC",
+      "sha256": "5c468b1fcb7921d12de58b4c1d17ba354d8ecf9928a7b3309eacfdf58f4ec369",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 186253
+    },
+    {
+      "file": "obsidian-luxe/pulse-watch.gif",
+      "theme": "obsidian-luxe",
+      "state": "WATCH",
+      "mode": "MOTION",
+      "sha256": "fa99bb115194dd7209a05860b9f8926b171dabca09c5154ba01f443bb7d1474e",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 567305
+    },
+    {
+      "file": "obsidian-luxe/pulse-watch.png",
+      "theme": "obsidian-luxe",
+      "state": "WATCH",
+      "mode": "STATIC",
+      "sha256": "94ac7fb26b060bdee89935d82eaf76446988277ef2bbc13a0fc0e1ef8932fa76",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 153472
+    },
+    {
+      "file": "royal-signal/hero.png",
+      "theme": "royal-signal",
+      "state": null,
+      "mode": "STATIC",
+      "sha256": "1969268b838afdb4aa4237b2346552e58d84b375aa0fe421a481a427ff3b59cf",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 160278
+    },
+    {
+      "file": "royal-signal/pulse-active.gif",
+      "theme": "royal-signal",
+      "state": "ACTIVE",
+      "mode": "MOTION",
+      "sha256": "1321059be84635e5602e604571734387de61dae153b9c9abfb8532639971a07d",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 624990
+    },
+    {
+      "file": "royal-signal/pulse-active.png",
+      "theme": "royal-signal",
+      "state": "ACTIVE",
+      "mode": "STATIC",
+      "sha256": "8569883c15a071265e346a991abed0b139aca73c3b0bb88956d2d65d4f414ce1",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 159389
+    },
+    {
+      "file": "royal-signal/pulse-degraded.gif",
+      "theme": "royal-signal",
+      "state": "DEGRADED",
+      "mode": "MOTION",
+      "sha256": "bfccea7c3f25182e5e71439093df7960a540253db4d5e78be633d96a600cb839",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 609649
+    },
+    {
+      "file": "royal-signal/pulse-degraded.png",
+      "theme": "royal-signal",
+      "state": "DEGRADED",
+      "mode": "STATIC",
+      "sha256": "9a02dc5ff10c9005175b984d55ee6c825368f7c913ba07bff80e6e7e4f0eccbd",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 162080
+    },
+    {
+      "file": "royal-signal/pulse-idle.gif",
+      "theme": "royal-signal",
+      "state": "IDLE",
+      "mode": "MOTION",
+      "sha256": "712b42ddc0081e4fd928a640366d022e495557288398d438020b6653f4f4f40a",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 636014
+    },
+    {
+      "file": "royal-signal/pulse-idle.png",
+      "theme": "royal-signal",
+      "state": "IDLE",
+      "mode": "STATIC",
+      "sha256": "0a73c10b186f944576a3eb3e5d6d5f79a70c337da5aa6d1cd49db45e49729ba1",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 170543
+    },
+    {
+      "file": "royal-signal/pulse-incident.gif",
+      "theme": "royal-signal",
+      "state": "INCIDENT",
+      "mode": "MOTION",
+      "sha256": "d056374f0ef1099d610724025d4ae4269513d3ff45c7cb89ef5150662470dc81",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 613689
+    },
+    {
+      "file": "royal-signal/pulse-incident.png",
+      "theme": "royal-signal",
+      "state": "INCIDENT",
+      "mode": "STATIC",
+      "sha256": "fbae7f9fd1ddefcd4d8fbb457150d974f7b962021b02a7bd4d9a588824326bc1",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 163570
+    },
+    {
+      "file": "royal-signal/pulse-live.gif",
+      "theme": "royal-signal",
+      "state": "LIVE",
+      "mode": "MOTION",
+      "sha256": "dd93d495889fcb67cb0bf3acb1b10fe3d6bac416c3c251545e1c8832b2341fb8",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 623598
+    },
+    {
+      "file": "royal-signal/pulse-live.png",
+      "theme": "royal-signal",
+      "state": "LIVE",
+      "mode": "STATIC",
+      "sha256": "04a5c3e9d5bb216999395b6262d835b5d5dbaf3fd53e1bd24919be52df2a73b4",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 159346
+    },
+    {
+      "file": "royal-signal/pulse-maintenance.gif",
+      "theme": "royal-signal",
+      "state": "MAINTENANCE",
+      "mode": "MOTION",
+      "sha256": "4f52740ae27c2587416e7cd93a59aa8594d7e70557bfd9f7358d13b35ab1daa0",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 625965
+    },
+    {
+      "file": "royal-signal/pulse-maintenance.png",
+      "theme": "royal-signal",
+      "state": "MAINTENANCE",
+      "mode": "STATIC",
+      "sha256": "354f1cc4ca1564935a849797c1a45d97d8b35ae6c178e4d43033f0982267abe4",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 167718
+    },
+    {
+      "file": "royal-signal/pulse-ready.gif",
+      "theme": "royal-signal",
+      "state": "READY",
+      "mode": "MOTION",
+      "sha256": "2f6e4070883601bc49d9833147e96827314c7116461c8f47545e77ffc5c9ccb8",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 699708
+    },
+    {
+      "file": "royal-signal/pulse-ready.png",
+      "theme": "royal-signal",
+      "state": "READY",
+      "mode": "STATIC",
+      "sha256": "fed57dc106eceeae8cf9e106dc7f0431c5fc077a94e18400981b5cbe50fe2fab",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 193393
+    },
+    {
+      "file": "royal-signal/pulse-recovery.gif",
+      "theme": "royal-signal",
+      "state": "RECOVERY",
+      "mode": "MOTION",
+      "sha256": "65e5090d1f1702aef048ee6316b76045cf212c9a0d854e82db8a3135c53df9a2",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 734510
+    },
+    {
+      "file": "royal-signal/pulse-recovery.png",
+      "theme": "royal-signal",
+      "state": "RECOVERY",
+      "mode": "STATIC",
+      "sha256": "983d0ebb413299fe3dcbe5f12072deb51c2c767e6858e6733889a112eb2efec0",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 190862
+    },
+    {
+      "file": "royal-signal/pulse-success.gif",
+      "theme": "royal-signal",
+      "state": "SUCCESS",
+      "mode": "MOTION",
+      "sha256": "7ad4bdccc3cc4db02a4cb1c0f05c10e1a51a42821bb532d25c65234cfed4eff6",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 622341
+    },
+    {
+      "file": "royal-signal/pulse-success.png",
+      "theme": "royal-signal",
+      "state": "SUCCESS",
+      "mode": "STATIC",
+      "sha256": "adb35c4d91c4683dec1d3ad3170070314833d92a12444cf20005a09bb60e961c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 167086
+    },
+    {
+      "file": "royal-signal/pulse-syncing.gif",
+      "theme": "royal-signal",
+      "state": "SYNCING",
+      "mode": "MOTION",
+      "sha256": "0e75ca1c0e63f8bf4c40ab0216244c091da2a18bec672c273086edcdc6d91f37",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 621281
+    },
+    {
+      "file": "royal-signal/pulse-syncing.png",
+      "theme": "royal-signal",
+      "state": "SYNCING",
+      "mode": "STATIC",
+      "sha256": "09719d39de9211262b908603c907bf5982e9c877c5989fd00a27fea45c702d6f",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 157207
+    },
+    {
+      "file": "royal-signal/pulse-watch.gif",
+      "theme": "royal-signal",
+      "state": "WATCH",
+      "mode": "MOTION",
+      "sha256": "5818bc592175966e55bb9b7088dffe376636b633e407b27f7b53b00ec83a28b2",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 634256
+    },
+    {
+      "file": "royal-signal/pulse-watch.png",
+      "theme": "royal-signal",
+      "state": "WATCH",
+      "mode": "STATIC",
+      "sha256": "363ebdfca390080d5f889dda71fbefda495bd723748c03d0c09c6e9a9b671c8f",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 167240
+    },
+    {
+      "file": "sakura-circuit/hero.png",
+      "theme": "sakura-circuit",
+      "state": null,
+      "mode": "STATIC",
+      "sha256": "24cb71a6e8aeecc986d8147570e20ec9af3f541c616f87529b0e82004cba593c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 168579
+    },
+    {
+      "file": "sakura-circuit/pulse-active.gif",
+      "theme": "sakura-circuit",
+      "state": "ACTIVE",
+      "mode": "MOTION",
+      "sha256": "9da2e58943adad99ab85db1431c2f26110d9239cff1192a85ae42dbb02c1f400",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 567192
+    },
+    {
+      "file": "sakura-circuit/pulse-active.png",
+      "theme": "sakura-circuit",
+      "state": "ACTIVE",
+      "mode": "STATIC",
+      "sha256": "45e3e80bfee81f843cd4f9aec496de06d91f0021aad6a4c80b31c0b4f7b9d009",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 157126
+    },
+    {
+      "file": "sakura-circuit/pulse-degraded.gif",
+      "theme": "sakura-circuit",
+      "state": "DEGRADED",
+      "mode": "MOTION",
+      "sha256": "46c359f9a4fd592642c39c83e4748569ed7fc4580e42ebbd254c0a7a92c2ba00",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 652737
+    },
+    {
+      "file": "sakura-circuit/pulse-degraded.png",
+      "theme": "sakura-circuit",
+      "state": "DEGRADED",
+      "mode": "STATIC",
+      "sha256": "68da3004bb564c5ebf7eb9494101db56c2a84a93dad0e1d58913120974c451d6",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 178172
+    },
+    {
+      "file": "sakura-circuit/pulse-idle.gif",
+      "theme": "sakura-circuit",
+      "state": "IDLE",
+      "mode": "MOTION",
+      "sha256": "ef25475abf9afd4d14a5ffbf1836a6dced3d0e2b7ac97a12d9c1e08c8b3a9148",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 629258
+    },
+    {
+      "file": "sakura-circuit/pulse-idle.png",
+      "theme": "sakura-circuit",
+      "state": "IDLE",
+      "mode": "STATIC",
+      "sha256": "8627f0edd637a27a19a16930129afd6d16dc18beb1d90b903c72fdb9886a378a",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 163896
+    },
+    {
+      "file": "sakura-circuit/pulse-incident.gif",
+      "theme": "sakura-circuit",
+      "state": "INCIDENT",
+      "mode": "MOTION",
+      "sha256": "73341cae376ef6bcaa8c0eaa3c697afc1c0f4d35fc3c6fd50a556058ea935276",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 592055
+    },
+    {
+      "file": "sakura-circuit/pulse-incident.png",
+      "theme": "sakura-circuit",
+      "state": "INCIDENT",
+      "mode": "STATIC",
+      "sha256": "97fbb2e8944fd29782a23e82a788f083dde7f7923b841293993b8ce2ff6cac7b",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 166008
+    },
+    {
+      "file": "sakura-circuit/pulse-live.gif",
+      "theme": "sakura-circuit",
+      "state": "LIVE",
+      "mode": "MOTION",
+      "sha256": "22ce1fb587a2ba27c134f1da99baafac216bbd9d7d6ba7b457ee2cc1b46b4f36",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 579258
+    },
+    {
+      "file": "sakura-circuit/pulse-live.png",
+      "theme": "sakura-circuit",
+      "state": "LIVE",
+      "mode": "STATIC",
+      "sha256": "c760f8cf92ba974488724fe1b99337273afe27518132bb48828ddf8b76a5baa3",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 163073
+    },
+    {
+      "file": "sakura-circuit/pulse-maintenance.gif",
+      "theme": "sakura-circuit",
+      "state": "MAINTENANCE",
+      "mode": "MOTION",
+      "sha256": "54e42c29b8a92973700a3a416af71070c24729de5151555fd4848c1fd6618d51",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 659521
+    },
+    {
+      "file": "sakura-circuit/pulse-maintenance.png",
+      "theme": "sakura-circuit",
+      "state": "MAINTENANCE",
+      "mode": "STATIC",
+      "sha256": "21951c8358b25a118bf5d26011376d985bb46f941537062e87f6b6aa176d5cc8",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 183812
+    },
+    {
+      "file": "sakura-circuit/pulse-ready.gif",
+      "theme": "sakura-circuit",
+      "state": "READY",
+      "mode": "MOTION",
+      "sha256": "7bf5fadb5cfd314e1da99b3c21eb258cca36add0968cd59d873c324eff9fd7c9",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 584215
+    },
+    {
+      "file": "sakura-circuit/pulse-ready.png",
+      "theme": "sakura-circuit",
+      "state": "READY",
+      "mode": "STATIC",
+      "sha256": "e0517546d7137a704980f7b0df5adde6f8345eb5515f03859befab96b6c0803d",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 148340
+    },
+    {
+      "file": "sakura-circuit/pulse-recovery.gif",
+      "theme": "sakura-circuit",
+      "state": "RECOVERY",
+      "mode": "MOTION",
+      "sha256": "512f3f2fc6084aa182b1a0d66acb3867e817a3686b38da2a898f8e601569bb5b",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 713729
+    },
+    {
+      "file": "sakura-circuit/pulse-recovery.png",
+      "theme": "sakura-circuit",
+      "state": "RECOVERY",
+      "mode": "STATIC",
+      "sha256": "e6e78be08fe109ad88f4dd725a587b560ae0e06d8fd2bd0084fc3b29acbdee44",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 186680
+    },
+    {
+      "file": "sakura-circuit/pulse-success.gif",
+      "theme": "sakura-circuit",
+      "state": "SUCCESS",
+      "mode": "MOTION",
+      "sha256": "8865d68e731119fca37448de3be21bc59581489410c311709de8d6cfb5536aa5",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 620983
+    },
+    {
+      "file": "sakura-circuit/pulse-success.png",
+      "theme": "sakura-circuit",
+      "state": "SUCCESS",
+      "mode": "STATIC",
+      "sha256": "877140d57774eec07e2476152af0b4104abc7fcf16fb52caa16d2698c97fe130",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 162423
+    },
+    {
+      "file": "sakura-circuit/pulse-syncing.gif",
+      "theme": "sakura-circuit",
+      "state": "SYNCING",
+      "mode": "MOTION",
+      "sha256": "dd029ed2d8a814801bfbaaa7df5dcd5957bb95917926c82124a04b74544b63e1",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 597177
+    },
+    {
+      "file": "sakura-circuit/pulse-syncing.png",
+      "theme": "sakura-circuit",
+      "state": "SYNCING",
+      "mode": "STATIC",
+      "sha256": "2944070172cfec35f664c754a33eb15dff12bd569cd60ff4853810e443fd2d0c",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 170500
+    },
+    {
+      "file": "sakura-circuit/pulse-watch.gif",
+      "theme": "sakura-circuit",
+      "state": "WATCH",
+      "mode": "MOTION",
+      "sha256": "0cf60489414588ef615dc10f8815df4bfb42d898c685df0c6492ba9743b0c37f",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 653838
+    },
+    {
+      "file": "sakura-circuit/pulse-watch.png",
+      "theme": "sakura-circuit",
+      "state": "WATCH",
+      "mode": "STATIC",
+      "sha256": "aa1feadaf02b6c689874ad42d3da0f22c25fce1baa11652bd7cf7afc51933e96",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 182634
+    },
+    {
+      "file": "soft-lab/hero.png",
+      "theme": "soft-lab",
+      "state": null,
+      "mode": "STATIC",
+      "sha256": "b0882af5f863c55488b7bd33cc8caa162515bfd50967cb05d3371aeb0049af7b",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 195693
+    },
+    {
+      "file": "soft-lab/pulse-active.gif",
+      "theme": "soft-lab",
+      "state": "ACTIVE",
+      "mode": "MOTION",
+      "sha256": "f6e605e960a72ce452698b7c3310ce611fc0d1534f0b07882b3997d2b3536e4e",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 623676
+    },
+    {
+      "file": "soft-lab/pulse-active.png",
+      "theme": "soft-lab",
+      "state": "ACTIVE",
+      "mode": "STATIC",
+      "sha256": "a731ab3766a43545943a5a22b4fa3e3a24a37139cce7b14c5777a328437f7b61",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 189197
+    },
+    {
+      "file": "soft-lab/pulse-degraded.gif",
+      "theme": "soft-lab",
+      "state": "DEGRADED",
+      "mode": "MOTION",
+      "sha256": "71041f005db0f79ca2ee8366310c939b910197309f54290908b81b9730599bdb",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 690862
+    },
+    {
+      "file": "soft-lab/pulse-degraded.png",
+      "theme": "soft-lab",
+      "state": "DEGRADED",
+      "mode": "STATIC",
+      "sha256": "641befd81fa2ba323ad482d863790a78c6a96b5ec69f393cdd895a8610e8c424",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 214560
+    },
+    {
+      "file": "soft-lab/pulse-idle.gif",
+      "theme": "soft-lab",
+      "state": "IDLE",
+      "mode": "MOTION",
+      "sha256": "81f43928df74f219b37b355d3034f57a30c150252876264fedb57e92bbcff556",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 628631
+    },
+    {
+      "file": "soft-lab/pulse-idle.png",
+      "theme": "soft-lab",
+      "state": "IDLE",
+      "mode": "STATIC",
+      "sha256": "ec5a0dd2aef92f49cebf091a0b048415417aadcee2b0068198fbd3ac6be691ab",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 194557
+    },
+    {
+      "file": "soft-lab/pulse-incident.gif",
+      "theme": "soft-lab",
+      "state": "INCIDENT",
+      "mode": "MOTION",
+      "sha256": "b6044b884db0316128990d273f53974c1b991c2ce1294da12befe7f92bea6b1e",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 613841
+    },
+    {
+      "file": "soft-lab/pulse-incident.png",
+      "theme": "soft-lab",
+      "state": "INCIDENT",
+      "mode": "STATIC",
+      "sha256": "ca47a7f2a0968c03ac566c4b56c72caca413f2db5b449171c87c96e600f63035",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 194968
+    },
+    {
+      "file": "soft-lab/pulse-live.gif",
+      "theme": "soft-lab",
+      "state": "LIVE",
+      "mode": "MOTION",
+      "sha256": "27dc9b26f8cf003062a050478de359258bff070f1074aa498c73b76d1f1bc315",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 722273
+    },
+    {
+      "file": "soft-lab/pulse-live.png",
+      "theme": "soft-lab",
+      "state": "LIVE",
+      "mode": "STATIC",
+      "sha256": "1a1ca4f215c4c1c1ba33f4ee034fbcef595746ecb59d58e59d9ddd2a559263c3",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 222880
+    },
+    {
+      "file": "soft-lab/pulse-maintenance.gif",
+      "theme": "soft-lab",
+      "state": "MAINTENANCE",
+      "mode": "MOTION",
+      "sha256": "f82e4b4db1a078500248e67fcec7dddd394032229505a731a6ea4d60e4766979",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 682950
+    },
+    {
+      "file": "soft-lab/pulse-maintenance.png",
+      "theme": "soft-lab",
+      "state": "MAINTENANCE",
+      "mode": "STATIC",
+      "sha256": "6dc06eaeaa6cb59f02284a0e068ec1261d4e21e7607559543dc4c854c1764449",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 230932
+    },
+    {
+      "file": "soft-lab/pulse-ready.gif",
+      "theme": "soft-lab",
+      "state": "READY",
+      "mode": "MOTION",
+      "sha256": "138541e801605a56a5765ea5bdcb3eecf92ebf62e939c0ae953b0396f8332bd7",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 679817
+    },
+    {
+      "file": "soft-lab/pulse-ready.png",
+      "theme": "soft-lab",
+      "state": "READY",
+      "mode": "STATIC",
+      "sha256": "ea3c03b19aa8cfbcbe69f1356f30f1017f303b389c496f67e955b7924ac1b0e7",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 210283
+    },
+    {
+      "file": "soft-lab/pulse-recovery.gif",
+      "theme": "soft-lab",
+      "state": "RECOVERY",
+      "mode": "MOTION",
+      "sha256": "2b409f6c738a2548ff28d0be087ad662508380a439179e259009845221eadcf5",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 624168
+    },
+    {
+      "file": "soft-lab/pulse-recovery.png",
+      "theme": "soft-lab",
+      "state": "RECOVERY",
+      "mode": "STATIC",
+      "sha256": "331668a1fe97270cf4ca884b0551d692cee80c8c2a58c19a78440c6284ee2e2b",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 194581
+    },
+    {
+      "file": "soft-lab/pulse-success.gif",
+      "theme": "soft-lab",
+      "state": "SUCCESS",
+      "mode": "MOTION",
+      "sha256": "fa276ca5297852ddcfe6c99149e2e484c4438efa30c39e20176424d86cbd7b47",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 618348
+    },
+    {
+      "file": "soft-lab/pulse-success.png",
+      "theme": "soft-lab",
+      "state": "SUCCESS",
+      "mode": "STATIC",
+      "sha256": "474f81fbd2e0f5b68ccd4ef63e8b3554d0a166574375050c1c0bfb59133aa519",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 192822
+    },
+    {
+      "file": "soft-lab/pulse-syncing.gif",
+      "theme": "soft-lab",
+      "state": "SYNCING",
+      "mode": "MOTION",
+      "sha256": "5d72bf2956c88cdeeda987eddd8506d224d340199cea82b95757e59d2bde0f67",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 631459
+    },
+    {
+      "file": "soft-lab/pulse-syncing.png",
+      "theme": "soft-lab",
+      "state": "SYNCING",
+      "mode": "STATIC",
+      "sha256": "953e4912696450013b1545406e01dd3d01576066a3b2be4e8963cf375f7732d2",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 193647
+    },
+    {
+      "file": "soft-lab/pulse-watch.gif",
+      "theme": "soft-lab",
+      "state": "WATCH",
+      "mode": "MOTION",
+      "sha256": "918284f721892342182cafece31895b2c7b5676eefd34519ac8b8a90d4461788",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 607998
+    },
+    {
+      "file": "soft-lab/pulse-watch.png",
+      "theme": "soft-lab",
+      "state": "WATCH",
+      "mode": "STATIC",
+      "sha256": "9d6b46cf4201c70a816773318a3e8e25e65bd7fdc5342857ad5ffc03d00b5eda",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 196370
+    },
+    {
+      "file": "tactical/hero.png",
+      "theme": "tactical",
+      "state": null,
+      "mode": "STATIC",
+      "sha256": "2e306fefb01a19f99c1e3ade2fbb91c8d209784fb28077b67e73f455e562f179",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 155953
+    },
+    {
+      "file": "tactical/pulse-active.gif",
+      "theme": "tactical",
+      "state": "ACTIVE",
+      "mode": "MOTION",
+      "sha256": "58c4d26bd6e790a66f21c6ddbb63bab19856c884b9de83d07e3e0a37b23c4734",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 693319
+    },
+    {
+      "file": "tactical/pulse-active.png",
+      "theme": "tactical",
+      "state": "ACTIVE",
+      "mode": "STATIC",
+      "sha256": "82e7fdd5b074d22bd23ee4af5b05da4770429816371c7664cd74ec340e2ae368",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 178789
+    },
+    {
+      "file": "tactical/pulse-degraded.gif",
+      "theme": "tactical",
+      "state": "DEGRADED",
+      "mode": "MOTION",
+      "sha256": "2ae816e4b460bc81f07b74c14d4d2f2ab87693e3f35dd042dd458b76f07d7c15",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 609582
+    },
+    {
+      "file": "tactical/pulse-degraded.png",
+      "theme": "tactical",
+      "state": "DEGRADED",
+      "mode": "STATIC",
+      "sha256": "af650a05ddd242fb345019e8c4c213a03f36d53d2e4916f3310f7a9549343298",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 159327
+    },
+    {
+      "file": "tactical/pulse-idle.gif",
+      "theme": "tactical",
+      "state": "IDLE",
+      "mode": "MOTION",
+      "sha256": "5753e28f8f932e81608645ffe183c57e038bd93614a608c2d8021c48de88f3d9",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 657631
+    },
+    {
+      "file": "tactical/pulse-idle.png",
+      "theme": "tactical",
+      "state": "IDLE",
+      "mode": "STATIC",
+      "sha256": "7b2937ca45f7765e00e1b948fdaede5e4a7a3f4319876a1fa7edfe3eb6efdbdf",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 168888
+    },
+    {
+      "file": "tactical/pulse-incident.gif",
+      "theme": "tactical",
+      "state": "INCIDENT",
+      "mode": "MOTION",
+      "sha256": "36b7d6d8ea4b68af8b2365f848148dcd77550d27d45898a50a670922b32653ee",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 561523
+    },
+    {
+      "file": "tactical/pulse-incident.png",
+      "theme": "tactical",
+      "state": "INCIDENT",
+      "mode": "STATIC",
+      "sha256": "15f01c5af8ea06f3f42b8324c0b7649e9d857ccb5c836e8b1696bbf23944883a",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 149597
+    },
+    {
+      "file": "tactical/pulse-live.gif",
+      "theme": "tactical",
+      "state": "LIVE",
+      "mode": "MOTION",
+      "sha256": "6ca76453b5285247a6cdad7065de5387bc66cd991cbf7ece514ce2adb1f8b895",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 697455
+    },
+    {
+      "file": "tactical/pulse-live.png",
+      "theme": "tactical",
+      "state": "LIVE",
+      "mode": "STATIC",
+      "sha256": "4dbb0701369b6839a5dc5d68bc23e586d1453932000dfc2a95d5d26422b9bba6",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 180405
+    },
+    {
+      "file": "tactical/pulse-maintenance.gif",
+      "theme": "tactical",
+      "state": "MAINTENANCE",
+      "mode": "MOTION",
+      "sha256": "e32fc3b8f48a3796aaac718ad7c79004a96adf08ed744db9f98a33b64d1abdcb",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 698408
+    },
+    {
+      "file": "tactical/pulse-maintenance.png",
+      "theme": "tactical",
+      "state": "MAINTENANCE",
+      "mode": "STATIC",
+      "sha256": "f9b1cecd0387c4292e1529169df6a0d196a1aa05a0f1c54d7f92e6484832bfd3",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 185610
+    },
+    {
+      "file": "tactical/pulse-ready.gif",
+      "theme": "tactical",
+      "state": "READY",
+      "mode": "MOTION",
+      "sha256": "4a3fef172b2ae0bf9513fbd5e38635d00b83da548cdfe51d9519ec4325df74be",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 597854
+    },
+    {
+      "file": "tactical/pulse-ready.png",
+      "theme": "tactical",
+      "state": "READY",
+      "mode": "STATIC",
+      "sha256": "28eb52fc37eb179bcc89d4e1476a89d42c4f6434dc49be15996a52c5c5a13f47",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 152708
+    },
+    {
+      "file": "tactical/pulse-recovery.gif",
+      "theme": "tactical",
+      "state": "RECOVERY",
+      "mode": "MOTION",
+      "sha256": "e782e0e25c65e8b63d858c7db3366f66459ab5c674a320141285d7b83ae8b804",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 587711
+    },
+    {
+      "file": "tactical/pulse-recovery.png",
+      "theme": "tactical",
+      "state": "RECOVERY",
+      "mode": "STATIC",
+      "sha256": "74cea3c24d3486918eaf5650c4b0e3a3df62e8d7a80828aa9c16bca82ce00ff5",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 150156
+    },
+    {
+      "file": "tactical/pulse-success.gif",
+      "theme": "tactical",
+      "state": "SUCCESS",
+      "mode": "MOTION",
+      "sha256": "75ec06fa7f2b4427cfa9af854ee8a0535412fccff074f7bea60b88978b93c3d5",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 597139
+    },
+    {
+      "file": "tactical/pulse-success.png",
+      "theme": "tactical",
+      "state": "SUCCESS",
+      "mode": "STATIC",
+      "sha256": "64ee9b1777939a2f027fe416cb6f015eee7c1339656e6d192679661307735967",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 150966
+    },
+    {
+      "file": "tactical/pulse-syncing.gif",
+      "theme": "tactical",
+      "state": "SYNCING",
+      "mode": "MOTION",
+      "sha256": "205c0702e0d2bb8e1f12abe399e4a5cf94a41e32d916d638fdec49a67570be08",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 616166
+    },
+    {
+      "file": "tactical/pulse-syncing.png",
+      "theme": "tactical",
+      "state": "SYNCING",
+      "mode": "STATIC",
+      "sha256": "e79811f6f6bced29ebee6daa4c75ede6b0a0374168e159801fdbf1630c9ff0d0",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 156381
+    },
+    {
+      "file": "tactical/pulse-watch.gif",
+      "theme": "tactical",
+      "state": "WATCH",
+      "mode": "MOTION",
+      "sha256": "ac02cc8f825ebf9e89e347d07c0f310af033c1a6b18afe46e5e10e0ff7110291",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 12,
+      "bytes": 603139
+    },
+    {
+      "file": "tactical/pulse-watch.png",
+      "theme": "tactical",
+      "state": "WATCH",
+      "mode": "STATIC",
+      "sha256": "265a633355fe999ab6b812979da1e6f8d174187b6988f13d1053c933f9f8a724",
+      "dimensions": [
+        1200,
+        450
+      ],
+      "frames": 1,
+      "bytes": 157980
+    }
+  ]
+}
