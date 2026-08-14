@@ -1,0 +1,86 @@
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import { decideSessionAdmission, isSessionCheckInOpen, promoteSessionWaitlist, rankGamingAvailabilityCandidates, transitionSessionCheckIn } from '../packages/gaming/src/session-reliability-pure.ts';
+import { evaluateErrorBudget } from '../packages/analytics/src/slo-pure.ts';
+import { lintAutomationRule } from '../packages/automation/src/lint-pure.ts';
+
+let assertions=0;const check=(fn)=>{fn();assertions+=1;};
+check(()=>assert.equal(decideSessionAdmission({joinedCount:1,capacity:2,waitlistedCount:0,waitlistCapacity:5}),'JOINED'));
+check(()=>assert.equal(decideSessionAdmission({joinedCount:2,capacity:2,waitlistedCount:0,waitlistCapacity:5}),'WAITLISTED'));
+check(()=>assert.equal(decideSessionAdmission({joinedCount:2,capacity:2,waitlistedCount:5,waitlistCapacity:5}),'REJECTED'));
+check(()=>assert.throws(()=>decideSessionAdmission({joinedCount:3,capacity:2,waitlistedCount:0,waitlistCapacity:5}),/JOINED_COUNT_INVALID/));
+check(()=>assert.deepEqual(promoteSessionWaitlist(['u1','u2','u3'],2),['u1','u2']));
+check(()=>assert.deepEqual(promoteSessionWaitlist(['u1','u1','u2'],2),['u1','u2']));
+check(()=>assert.equal(transitionSessionCheckIn('PENDING','CHECK_IN'),'CHECKED_IN'));
+check(()=>assert.equal(transitionSessionCheckIn('PENDING','MARK_NO_SHOW'),'NO_SHOW'));
+check(()=>assert.equal(transitionSessionCheckIn('NO_SHOW','EXCUSE'),'EXCUSED'));
+check(()=>assert.equal(transitionSessionCheckIn('EXCUSED','RESET'),'PENDING'));
+check(()=>assert.throws(()=>transitionSessionCheckIn('CHECKED_IN','MARK_NO_SHOW'),/CHECKIN_TRANSITION_INVALID/));
+const starts=new Date('2026-08-20T13:00:00Z');
+check(()=>assert.equal(isSessionCheckInOpen(starts,new Date('2026-08-20T12:31:00Z'),30,15),true));
+check(()=>assert.equal(isSessionCheckInOpen(starts,new Date('2026-08-20T12:29:59Z'),30,15),false));
+check(()=>assert.equal(isSessionCheckInOpen(starts,new Date('2026-08-20T13:16:00Z'),30,15),false));
+const ranked=rankGamingAvailabilityCandidates([{weekday:2,startMinute:1200,endMinute:1320,participantIds:['u1','u2']},{weekday:1,startMinute:1080,endMinute:1140,participantIds:['u1','u2','u3']}],10);
+check(()=>assert.equal(ranked[0]?.participantCount,3));
+check(()=>assert.equal(ranked[0]?.weekday,1));
+check(()=>assert.equal(ranked[1]?.durationMinutes,120));
+
+const healthy=evaluateErrorBudget({good:999,total:1000,targetRatio:0.99,minimumSamples:20});
+check(()=>assert.equal(healthy.health,'HEALTHY'));
+check(()=>assert.ok((healthy.remainingFraction??0)>0));
+const watch=evaluateErrorBudget({good:991,total:1000,targetRatio:0.99,minimumSamples:20});
+check(()=>assert.equal(watch.health,'WATCH'));
+const exhausted=evaluateErrorBudget({good:980,total:1000,targetRatio:0.99,minimumSamples:20});
+check(()=>assert.equal(exhausted.health,'EXHAUSTED'));
+check(()=>assert.ok((exhausted.burnMultiple??0)>1));
+const unknown=evaluateErrorBudget({good:5,total:5,targetRatio:0.99,minimumSamples:20});
+check(()=>assert.equal(unknown.health,'UNKNOWN'));
+check(()=>assert.equal(unknown.sufficientSamples,false));
+check(()=>assert.throws(()=>evaluateErrorBudget({good:11,total:10,targetRatio:0.99}),/SLO_COUNT_INVALID/));
+
+const broad=lintAutomationRule({ruleId:'r1',eventType:'member.join',enabled:true,conditions:[],actions:[{type:'NOTIFY_TOPIC',config:{topic:'UPDATES'}}]});
+check(()=>assert.equal(broad.risk,'HIGH'));
+check(()=>assert.ok(broad.findings.some((item)=>item.code==='BROAD_MATCH')));
+const negative=lintAutomationRule({ruleId:'r2',eventType:'member.update',enabled:true,conditions:[{path:'profile.region',operator:'NOT_EQUALS',value:'TH'}],actions:[{type:'AUDIT_NOTE',config:{}}]});
+check(()=>assert.ok(negative.findings.some((item)=>item.code==='NEGATIVE_WITHOUT_EXISTS')));
+check(()=>assert.ok(negative.findings.some((item)=>item.code==='AUDIT_ONLY')));
+const guarded=lintAutomationRule({ruleId:'r3',eventType:'member.update',enabled:true,conditions:[{path:'profile.region',operator:'EXISTS'},{path:'profile.region',operator:'NOT_EQUALS',value:'TH'}],actions:[{type:'AUDIT_NOTE',config:{}}]});
+check(()=>assert.equal(guarded.findings.some((item)=>item.code==='NEGATIVE_WITHOUT_EXISTS'),false));
+
+const migration=await readFile('packages/database/migrations/053_gaming_session_reliability.sql','utf8');
+for(const token of ['waitlist_capacity','check_in_opens_minutes','check_in_closes_minutes','WAITLISTED','check_in_state','checked_in_at','promoted_at'])check(()=>assert.match(migration,new RegExp(token,'i')));
+check(()=>assert.match(migration,/gaming_session_waitlist_position_uq/));
+check(()=>assert.match(migration,/gaming_session_checkin_idx/));
+
+const gaming=await readFile('packages/gaming/src/index.ts','utf8');
+for(const method of ['recommendAvailability','checkInSession','setSessionCheckInState'])check(()=>assert.match(gaming,new RegExp(`async ${method}\\(`)));
+check(()=>assert.match(gaming,/decideSessionAdmission/));
+check(()=>assert.match(gaming,/promoteSessionWaitlist/));
+check(()=>assert.match(gaming,/for update/));
+check(()=>assert.match(gaming,/status='WAITLISTED'/));
+const actions=await readFile('apps/platform/src/discord/gaming-actions.ts','utf8');
+for(const id of ['gaming:availability:recommend:modal','gaming:session:checkin:','gaming:session:attendance:modal'])check(()=>assert.match(actions,new RegExp(id.replaceAll(':','\\:'))));
+check(()=>assert.match(actions,/การลงชื่อในรายชื่อรอยังไม่ได้รับความก้าวหน้าจนกว่าจะถูกเลื่อนเข้าร่วม/));
+check(()=>assert.match(actions,/ถูกเลื่อนเข้าร่วมอัตโนมัติ/));
+const panels=await readFile('packages/panels/src/index.ts','utf8');
+check(()=>assert.match(panels,/gaming:availability:recommend/));
+check(()=>assert.match(panels,/gaming:session:attendance/));
+
+const op=await readFile('apps/platform/src/http/operational-views.ts','utf8');
+check(()=>assert.match(op,/evaluateErrorBudget/));
+check(()=>assert.match(op,/jobs\.terminal_success_24h/));
+check(()=>assert.match(op,/notifications\.delivery_success_24h/));
+check(()=>assert.match(op,/automation\.receipt_success_24h/));
+check(()=>assert.match(op,/sloExhausted/));
+check(()=>assert.match(op,/waitlistedMembers/));
+check(()=>assert.match(op,/checkedInMembers/));
+const analytics=await readFile('packages/analytics/src/index.ts','utf8');
+for(const metric of ['gaming.session_waitlisted','gaming.session_checkins'])check(()=>assert.match(analytics,new RegExp(metric.replaceAll('.','\\.'))));
+const http=await readFile('apps/platform/src/http/server.ts','utf8');
+check(()=>assert.match(http,/lintAutomationRule/));
+check(()=>assert.match(http,/simulation,lint,evidenceClass/));
+const dashboard=await readFile('apps/dashboard/src/components/OperationalDeck.tsx','utf8');
+check(()=>assert.match(dashboard,/lintNote/));
+check(()=>assert.match(dashboard,/lint\.risk/));
+
+console.log(`phase24-session-reliability-slo-smoke PASS · ${assertions} assertions`);
