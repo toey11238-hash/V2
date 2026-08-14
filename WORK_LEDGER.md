@@ -254,3 +254,16 @@ This ledger records major engineering tasks. It is evidence, not a substitute fo
 - Current evidence: Phase 28 PASS 5,762 assertions; Thai presentation PASS 5,818; parser PASS 180 files; UI V2 PASS 8/415/87/103; a11y/i18n PASS 14; offline preflight PASS 31 gates.
 - Release truth remains intentionally blocked only by missing reviewed `package-lock.json`; no live DB/Discord/deployed browser/GPU evidence is claimed.
 - Final Phase 28 source attestation: `SOURCE_ATTESTED_RELEASE_BLOCKED`, source root `ceee919ea6731a3d0246d5463d6f1cf56514858448f53c99854bdbeb4dd988f5`, coverage 246/247 = 99.595%, migration frontier 054, sole Release Truth blocker `lockfile.missing`.
+
+## 2026-08-15 — Phase 29 production reality / operations intelligence work ledger
+- Continued autonomously from the Phase 28 delivered workspace; retained Canon, one-root `/setup`, anti-gambling and source/live evidence boundaries.
+- Chose extension over duplication: Digital Twin derives from existing setup planner; Operations Intelligence reads existing durable/runtime evidence; Event Replay reuses outbox/realtime history; no migration 055 was invented.
+- Added pure `digital-twin`, `operations-intelligence` and `event-replay` packages plus tenant-scoped HTTP adapters and Thai Dashboard consoles.
+- Added shared Visual Orchestrator with priority/preemption/suppression/merge/dedup semantics and sustained-FPS hysteresis governor; wired it into the existing Phase 28 stage.
+- Initial chaos distribution began with the highest-priority security scene, so preemption was not naturally exercised. Reproduced counters (`preempted=0`, `suppressed=1931`, `merged=34`) and changed the test to deterministic branch proof plus independent 2,000-event stress rather than weaken the behavior assertion.
+- Source trace found invalid PostgreSQL `FILTER` placement around `extract(...)` for oldest-pending ages. Fixed jobs/outbox/inbox queries to bind `FILTER` to aggregate `min(...)` and added static regression assertions.
+- Tightened Phase 29 Thai presentation: topology/operations/replay headings and component labels are Thai; exact technical identities remain values only when operationally useful.
+- Current Phase 29 gates before final consolidated preflight: production-intelligence PASS 51, chaos/replay PASS 4,016, Thai presentation PASS 5,818, a11y/i18n PASS 14, parser PASS 188.
+- Release/live evidence remains blocked exactly as before: no reviewed `package-lock.json`, no approved product DB/guild/deployed browser target. No source-model stress is claimed as deployed chaos/load evidence.
+- Added Recovery Evidence V2 without duplicating recovery state: `packages/recovery-evidence` cross-checks backup/hash/run/approval/RESTORE_VERIFY/drill evidence, `GET /recovery-evidence` exposes a bounded guild-scoped read model, and the existing RecoveryConsole renders a Thai fail-closed evidence lattice. Fault harness proves status-only, failed-run and mismatched-hash combinations cannot claim verified restore.
+- Final Phase 29 source attestation after 33-gate preflight: `SOURCE_ATTESTED_RELEASE_BLOCKED`, root `7214a173c201d098541e180984dc3482cd18ff6cfba7eb113c7497808b43a8a6`, coverage 252/253 = 99.605%, latest migration 054, only Release Truth blocker `lockfile.missing`.
